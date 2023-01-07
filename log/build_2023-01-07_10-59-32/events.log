@@ -1,0 +1,176 @@
+[0.000000] (-) TimerEvent: {}
+[0.000539] (hclidar_driver_ros2) JobQueued: {'identifier': 'hclidar_driver_ros2', 'dependencies': OrderedDict()}
+[0.000777] (hclidar_driver_ros2) JobStarted: {'identifier': 'hclidar_driver_ros2'}
+[0.043085] (hclidar_driver_ros2) JobProgress: {'identifier': 'hclidar_driver_ros2', 'progress': 'cmake'}
+[0.046682] (hclidar_driver_ros2) JobProgress: {'identifier': 'hclidar_driver_ros2', 'progress': 'build'}
+[0.049942] (hclidar_driver_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/konyun/hclidar_ros2_driver/build/hclidar_driver_ros2', '--', '-j4', '-l4'], 'cwd': '/home/konyun/hclidar_ros2_driver/build/hclidar_driver_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'konyun'), ('SSH_AGENT_PID', '6420'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/konyun/Qt5.12.10/5.12.10/gcc_64/lib:'), ('HOME', '/home/konyun'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '5706'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8bad398c14e843c374812b3863b8cb15'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/konyun/hclidar_ros2_driver/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'konyun'), ('JOURNAL_STREAM', '8:59202'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'konyun'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/konyun/Qt5.12.10/5.12.10/gcc_64/bin:/home/konyun/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/7102,unix/ubuntu:/tmp/.ICE-unix/7102'), ('INVOCATION_ID', 'edebd5ff21534b5c9de8189d88e2501c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe0ba9d5_30cb_4cc6_b8e8_1da10fc2f20e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.171'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/konyun/hclidar_ros2_driver/build/hclidar_driver_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8bad398c14e843c374812b3863b8cb15'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2:/opt/ros/foxy')]), 'shell': False}
+[0.099085] (-) TimerEvent: {}
+[0.200151] (-) TimerEvent: {}
+[0.229332] (hclidar_driver_ros2) StdoutLine: {'line': b'[ 77%] Built target lidar\n'}
+[0.280308] (hclidar_driver_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target hclidar_driver_ros2_node\x1b[0m\n'}
+[0.300892] (-) TimerEvent: {}
+[0.391829] (hclidar_driver_ros2) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/hclidar_driver_ros2_node.dir/src/hclidar_driver_ros2_node.cpp.o\x1b[0m\n'}
+[0.401520] (-) TimerEvent: {}
+[0.502240] (-) TimerEvent: {}
+[0.602961] (-) TimerEvent: {}
+[0.704516] (-) TimerEvent: {}
+[0.805888] (-) TimerEvent: {}
+[0.906995] (-) TimerEvent: {}
+[1.007767] (-) TimerEvent: {}
+[1.108537] (-) TimerEvent: {}
+[1.209667] (-) TimerEvent: {}
+[1.310184] (-) TimerEvent: {}
+[1.411341] (-) TimerEvent: {}
+[1.513158] (-) TimerEvent: {}
+[1.614726] (-) TimerEvent: {}
+[1.715599] (-) TimerEvent: {}
+[1.817283] (-) TimerEvent: {}
+[1.918284] (-) TimerEvent: {}
+[2.019717] (-) TimerEvent: {}
+[2.121613] (-) TimerEvent: {}
+[2.222680] (-) TimerEvent: {}
+[2.324193] (-) TimerEvent: {}
+[2.425360] (-) TimerEvent: {}
+[2.526497] (-) TimerEvent: {}
+[2.628120] (-) TimerEvent: {}
+[2.729791] (-) TimerEvent: {}
+[2.831316] (-) TimerEvent: {}
+[2.933146] (-) TimerEvent: {}
+[3.034103] (-) TimerEvent: {}
+[3.135973] (-) TimerEvent: {}
+[3.237412] (-) TimerEvent: {}
+[3.338703] (-) TimerEvent: {}
+[3.439951] (-) TimerEvent: {}
+[3.540577] (-) TimerEvent: {}
+[3.641806] (-) TimerEvent: {}
+[3.743066] (-) TimerEvent: {}
+[3.845674] (-) TimerEvent: {}
+[3.946571] (-) TimerEvent: {}
+[4.022132] (hclidar_driver_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/hclidar_driver_ros2_node.cpp:34\x1b[m\x1b[K:\n'}
+[4.022558] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/HcSDK.h:82:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[4.022958] (hclidar_driver_ros2) StderrLine: {'line': b'   82 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[4.023049] (hclidar_driver_ros2) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.023396] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/hclidar_driver_ros2_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid sdkCallBackFunErrorCode(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.023718] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/hclidar_driver_ros2_node.cpp:46:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat not a string literal and no format arguments [\x1b[01;35m\x1b[K-Wformat-security\x1b[m\x1b[K]\n'}
+[4.023883] (hclidar_driver_ros2) StderrLine: {'line': b'   46 |  printf(\x1b[01;35m\x1b[Kbuff\x1b[m\x1b[K);\n'}
+[4.024040] (hclidar_driver_ros2) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.025060] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/hclidar_driver_ros2_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid sdkCallBackFunSecondInfo(tsSDKStatistic)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.025448] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/hclidar_driver_ros2_node.cpp:65:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat not a string literal and no format arguments [\x1b[01;35m\x1b[K-Wformat-security\x1b[m\x1b[K]\n'}
+[4.025657] (hclidar_driver_ros2) StderrLine: {'line': b'   65 |  printf(\x1b[01;35m\x1b[Kbuff\x1b[m\x1b[K);\n'}
+[4.025828] (hclidar_driver_ros2) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.032605] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/hclidar_driver_ros2_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid sdkCallBackFunPointCloud(LstPointCloud)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.033040] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/hclidar_driver_ros2_node.cpp:79:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 3 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<tsPointCloud>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[4.033524] (hclidar_driver_ros2) StderrLine: {'line': b'   79 |  sprintf(buff, "---------------Size=\x1b[01;35m\x1b[K%d\x1b[m\x1b[K\\n", \x1b[32m\x1b[KlstG.size()\x1b[m\x1b[K);\n'}
+[4.033757] (hclidar_driver_ros2) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K~^\x1b[m\x1b[K     \x1b[32m\x1b[K~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.033840] (hclidar_driver_ros2) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K|\x1b[m\x1b[K              \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[4.033896] (hclidar_driver_ros2) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[Kint\x1b[m\x1b[K            \x1b[32m\x1b[Kstd::vector<tsPointCloud>::size_type {aka long unsigned int}\x1b[m\x1b[K\n'}
+[4.033955] (hclidar_driver_ros2) StderrLine: {'line': b'      |                                     \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[4.034011] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/hclidar_driver_ros2_node.cpp:80:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat not a string literal and no format arguments [\x1b[01;35m\x1b[K-Wformat-security\x1b[m\x1b[K]\n'}
+[4.034069] (hclidar_driver_ros2) StderrLine: {'line': b'   80 |  printf(\x1b[01;35m\x1b[Kbuff\x1b[m\x1b[K);\n'}
+[4.034125] (hclidar_driver_ros2) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[4.047349] (-) TimerEvent: {}
+[4.093782] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/hclidar_driver_ros2_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.094372] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/hclidar_driver_ros2_node.cpp:272:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<tsPointCloud>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[4.094832] (hclidar_driver_ros2) StderrLine: {'line': b'  272 |                         for(int i=0; \x1b[01;35m\x1b[Ki < lstG.size()\x1b[m\x1b[K; i++)\n'}
+[4.095171] (hclidar_driver_ros2) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.095516] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/hclidar_driver_ros2_node.cpp:288:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<tsPointCloud>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[4.095806] (hclidar_driver_ros2) StderrLine: {'line': b'  288 |                             if(index >=0 && \x1b[01;35m\x1b[Kindex < lstG.size()\x1b[m\x1b[K)\n'}
+[4.096055] (hclidar_driver_ros2) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.147539] (-) TimerEvent: {}
+[4.248564] (-) TimerEvent: {}
+[4.349394] (-) TimerEvent: {}
+[4.450507] (-) TimerEvent: {}
+[4.551581] (-) TimerEvent: {}
+[4.652966] (-) TimerEvent: {}
+[4.754482] (-) TimerEvent: {}
+[4.855331] (-) TimerEvent: {}
+[4.955986] (-) TimerEvent: {}
+[5.057226] (-) TimerEvent: {}
+[5.158540] (-) TimerEvent: {}
+[5.259967] (-) TimerEvent: {}
+[5.360998] (-) TimerEvent: {}
+[5.461824] (-) TimerEvent: {}
+[5.563427] (-) TimerEvent: {}
+[5.664239] (-) TimerEvent: {}
+[5.765799] (-) TimerEvent: {}
+[5.866473] (-) TimerEvent: {}
+[5.967345] (-) TimerEvent: {}
+[6.068403] (-) TimerEvent: {}
+[6.169517] (-) TimerEvent: {}
+[6.271013] (-) TimerEvent: {}
+[6.372390] (-) TimerEvent: {}
+[6.473706] (-) TimerEvent: {}
+[6.575385] (-) TimerEvent: {}
+[6.676603] (-) TimerEvent: {}
+[6.777728] (-) TimerEvent: {}
+[6.878742] (-) TimerEvent: {}
+[6.979852] (-) TimerEvent: {}
+[7.080475] (-) TimerEvent: {}
+[7.181519] (-) TimerEvent: {}
+[7.283012] (-) TimerEvent: {}
+[7.383668] (-) TimerEvent: {}
+[7.484259] (-) TimerEvent: {}
+[7.585631] (-) TimerEvent: {}
+[7.686405] (-) TimerEvent: {}
+[7.787306] (-) TimerEvent: {}
+[7.888239] (-) TimerEvent: {}
+[7.989267] (-) TimerEvent: {}
+[8.090903] (-) TimerEvent: {}
+[8.192273] (-) TimerEvent: {}
+[8.294891] (-) TimerEvent: {}
+[8.396158] (-) TimerEvent: {}
+[8.496826] (-) TimerEvent: {}
+[8.598144] (-) TimerEvent: {}
+[8.699442] (-) TimerEvent: {}
+[8.800653] (-) TimerEvent: {}
+[8.902225] (-) TimerEvent: {}
+[9.003891] (-) TimerEvent: {}
+[9.105712] (-) TimerEvent: {}
+[9.207174] (-) TimerEvent: {}
+[9.278516] (hclidar_driver_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable hclidar_driver_ros2_node\x1b[0m\n'}
+[9.307343] (-) TimerEvent: {}
+[9.408982] (-) TimerEvent: {}
+[9.510059] (-) TimerEvent: {}
+[9.611015] (-) TimerEvent: {}
+[9.712089] (-) TimerEvent: {}
+[9.812978] (-) TimerEvent: {}
+[9.903180] (hclidar_driver_ros2) StdoutLine: {'line': b'[100%] Built target hclidar_driver_ros2_node\n'}
+[9.913965] (-) TimerEvent: {}
+[9.932488] (hclidar_driver_ros2) CommandEnded: {'returncode': 0}
+[10.010850] (hclidar_driver_ros2) JobProgress: {'identifier': 'hclidar_driver_ros2', 'progress': 'install'}
+[10.015229] (-) TimerEvent: {}
+[10.038753] (hclidar_driver_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/konyun/hclidar_ros2_driver/build/hclidar_driver_ros2'], 'cwd': '/home/konyun/hclidar_ros2_driver/build/hclidar_driver_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'konyun'), ('SSH_AGENT_PID', '6420'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/konyun/Qt5.12.10/5.12.10/gcc_64/lib:'), ('HOME', '/home/konyun'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '5706'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8bad398c14e843c374812b3863b8cb15'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/konyun/hclidar_ros2_driver/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'konyun'), ('JOURNAL_STREAM', '8:59202'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'konyun'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/konyun/Qt5.12.10/5.12.10/gcc_64/bin:/home/konyun/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/7102,unix/ubuntu:/tmp/.ICE-unix/7102'), ('INVOCATION_ID', 'edebd5ff21534b5c9de8189d88e2501c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe0ba9d5_30cb_4cc6_b8e8_1da10fc2f20e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.171'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/konyun/hclidar_ros2_driver/build/hclidar_driver_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8bad398c14e843c374812b3863b8cb15'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2:/opt/ros/foxy')]), 'shell': False}
+[10.085298] (hclidar_driver_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.094639] (hclidar_driver_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.098263] (hclidar_driver_ros2) StdoutLine: {'line': b'-- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/lib/hclidar_driver_ros2/hclidar_driver_ros2_node\n'}
+[10.115612] (-) TimerEvent: {}
+[10.121837] (hclidar_driver_ros2) StdoutLine: {'line': b'-- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/launch/hclidar.py\n'}
+[10.142062] (hclidar_driver_ros2) StdoutLine: {'line': b'-- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/launch/hclidar_launch.py\n'}
+[10.163688] (hclidar_driver_ros2) StdoutLine: {'line': b'-- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/launch/hclidar_launch_rviz.py\n'}
+[10.183808] (hclidar_driver_ros2) StdoutLine: {'line': b'-- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/params/hclidar.yaml\n'}
+[10.208734] (hclidar_driver_ros2) StdoutLine: {'line': b'-- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/ament_index/resource_index/package_run_dependencies/hclidar_driver_ros2\n'}
+[10.216213] (-) TimerEvent: {}
+[10.231128] (hclidar_driver_ros2) StdoutLine: {'line': b'-- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/ament_index/resource_index/parent_prefix_path/hclidar_driver_ros2\n'}
+[10.261777] (hclidar_driver_ros2) StdoutLine: {'line': b'-- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/environment/ament_prefix_path.sh\n'}
+[10.284212] (hclidar_driver_ros2) StdoutLine: {'line': b'-- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/environment/ament_prefix_path.dsv\n'}
+[10.315235] (hclidar_driver_ros2) StdoutLine: {'line': b'-- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/environment/path.sh\n'}
+[10.316359] (-) TimerEvent: {}
+[10.341292] (hclidar_driver_ros2) StdoutLine: {'line': b'-- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/environment/path.dsv\n'}
+[10.366448] (hclidar_driver_ros2) StdoutLine: {'line': b'-- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/local_setup.bash\n'}
+[10.401529] (hclidar_driver_ros2) StdoutLine: {'line': b'-- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/local_setup.sh\n'}
+[10.416659] (-) TimerEvent: {}
+[10.431135] (hclidar_driver_ros2) StdoutLine: {'line': b'-- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/local_setup.zsh\n'}
+[10.471470] (hclidar_driver_ros2) StdoutLine: {'line': b'-- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/local_setup.dsv\n'}
+[10.502633] (hclidar_driver_ros2) StdoutLine: {'line': b'-- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/package.dsv\n'}
+[10.516979] (-) TimerEvent: {}
+[10.530584] (hclidar_driver_ros2) StdoutLine: {'line': b'-- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/ament_index/resource_index/packages/hclidar_driver_ros2\n'}
+[10.553608] (hclidar_driver_ros2) StdoutLine: {'line': b'-- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/cmake/hclidar_driver_ros2Config.cmake\n'}
+[10.576273] (hclidar_driver_ros2) StdoutLine: {'line': b'-- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/cmake/hclidar_driver_ros2Config-version.cmake\n'}
+[10.602996] (hclidar_driver_ros2) StdoutLine: {'line': b'-- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/package.xml\n'}
+[10.617285] (-) TimerEvent: {}
+[10.718545] (-) TimerEvent: {}
+[10.730930] (hclidar_driver_ros2) CommandEnded: {'returncode': 0}
+[10.819431] (-) TimerEvent: {}
+[10.920922] (-) TimerEvent: {}
+[10.934249] (hclidar_driver_ros2) JobEnded: {'identifier': 'hclidar_driver_ros2', 'rc': 0}
+[10.939088] (-) EventReactorShutdown: {}

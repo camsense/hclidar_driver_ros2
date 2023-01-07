@@ -1,0 +1,150 @@
+[0.000000] (-) TimerEvent: {}
+[0.000291] (hclidar_ros2_driver) JobQueued: {'identifier': 'hclidar_ros2_driver', 'dependencies': OrderedDict()}
+[0.001027] (hclidar_ros2_driver) JobStarted: {'identifier': 'hclidar_ros2_driver'}
+[0.100071] (-) TimerEvent: {}
+[0.200996] (-) TimerEvent: {}
+[0.301911] (hclidar_ros2_driver) JobProgress: {'identifier': 'hclidar_ros2_driver', 'progress': 'cmake'}
+[0.302087] (-) TimerEvent: {}
+[0.304648] (hclidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '/home/konyun/hclidar_ros2_driver', '-DCMAKE_INSTALL_PREFIX=/home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver'], 'cwd': '/home/konyun/hclidar_ros2_driver/build/hclidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'konyun'), ('SSH_AGENT_PID', '6420'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/konyun/Qt5.12.10/5.12.10/gcc_64/lib:'), ('HOME', '/home/konyun'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '5706'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8bad398c14e843c374812b3863b8cb15'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'konyun'), ('JOURNAL_STREAM', '8:59202'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'konyun'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/konyun/Qt5.12.10/5.12.10/gcc_64/bin:/home/konyun/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/7102,unix/ubuntu:/tmp/.ICE-unix/7102'), ('INVOCATION_ID', 'edebd5ff21534b5c9de8189d88e2501c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe0ba9d5_30cb_4cc6_b8e8_1da10fc2f20e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.171'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/konyun/hclidar_ros2_driver/build/hclidar_ros2_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8bad398c14e843c374812b3863b8cb15'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.402690] (-) TimerEvent: {}
+[0.548590] (-) TimerEvent: {}
+[0.656005] (-) TimerEvent: {}
+[0.758288] (-) TimerEvent: {}
+[0.859233] (-) TimerEvent: {}
+[0.960316] (-) TimerEvent: {}
+[1.061809] (-) TimerEvent: {}
+[1.162953] (-) TimerEvent: {}
+[1.263702] (-) TimerEvent: {}
+[1.364985] (-) TimerEvent: {}
+[1.466108] (-) TimerEvent: {}
+[1.566841] (-) TimerEvent: {}
+[1.641009] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.667517] (-) TimerEvent: {}
+[1.768129] (-) TimerEvent: {}
+[1.858439] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.869212] (-) TimerEvent: {}
+[1.971330] (-) TimerEvent: {}
+[2.072481] (-) TimerEvent: {}
+[2.173749] (-) TimerEvent: {}
+[2.274640] (-) TimerEvent: {}
+[2.375999] (-) TimerEvent: {}
+[2.477250] (-) TimerEvent: {}
+[2.578128] (-) TimerEvent: {}
+[2.678822] (-) TimerEvent: {}
+[2.708310] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.779475] (-) TimerEvent: {}
+[2.880431] (-) TimerEvent: {}
+[2.981282] (-) TimerEvent: {}
+[3.083007] (-) TimerEvent: {}
+[3.089445] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[3.183351] (-) TimerEvent: {}
+[3.284078] (-) TimerEvent: {}
+[3.384808] (-) TimerEvent: {}
+[3.485713] (-) TimerEvent: {}
+[3.587459] (-) TimerEvent: {}
+[3.688789] (-) TimerEvent: {}
+[3.787006] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.789834] (-) TimerEvent: {}
+[3.872292] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[3.890141] (-) TimerEvent: {}
+[3.991514] (-) TimerEvent: {}
+[4.093066] (-) TimerEvent: {}
+[4.194292] (-) TimerEvent: {}
+[4.295402] (-) TimerEvent: {}
+[4.396787] (-) TimerEvent: {}
+[4.498496] (-) TimerEvent: {}
+[4.599482] (-) TimerEvent: {}
+[4.700280] (-) TimerEvent: {}
+[4.801422] (-) TimerEvent: {}
+[4.903115] (-) TimerEvent: {}
+[4.926889] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.003370] (-) TimerEvent: {}
+[5.104179] (-) TimerEvent: {}
+[5.205781] (-) TimerEvent: {}
+[5.306634] (-) TimerEvent: {}
+[5.407528] (-) TimerEvent: {}
+[5.440220] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[5.446980] (hclidar_ros2_driver) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.507893] (-) TimerEvent: {}
+[5.608644] (-) TimerEvent: {}
+[5.710237] (-) TimerEvent: {}
+[5.810850] (-) TimerEvent: {}
+[5.911591] (-) TimerEvent: {}
+[6.012660] (-) TimerEvent: {}
+[6.034150] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[6.112854] (-) TimerEvent: {}
+[6.214556] (-) TimerEvent: {}
+[6.315889] (-) TimerEvent: {}
+[6.417889] (-) TimerEvent: {}
+[6.440593] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[6.518640] (-) TimerEvent: {}
+[6.619451] (-) TimerEvent: {}
+[6.639418] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)\n'}
+[6.708057] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[6.720381] (-) TimerEvent: {}
+[6.821044] (-) TimerEvent: {}
+[6.922530] (-) TimerEvent: {}
+[7.024047] (-) TimerEvent: {}
+[7.067067] (hclidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[7.124621] (-) TimerEvent: {}
+[7.204143] (hclidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[7.205877] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/konyun/hclidar_ros2_driver/src\n'}
+[7.206332] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[7.225003] (-) TimerEvent: {}
+[7.273815] (hclidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[7.274229] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[7.284874] (hclidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[7.303183] (hclidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.322885] (hclidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[7.326197] (-) TimerEvent: {}
+[7.405124] (hclidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[7.406220] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[7.417799] (hclidar_ros2_driver) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.427355] (-) TimerEvent: {}
+[7.429931] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.528343] (-) TimerEvent: {}
+[7.597501] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[7.624561] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/konyun/hclidar_ros2_driver/build/hclidar_ros2_driver\n'}
+[7.629937] (-) TimerEvent: {}
+[7.641431] (hclidar_ros2_driver) CommandEnded: {'returncode': 0}
+[7.644269] (hclidar_ros2_driver) JobProgress: {'identifier': 'hclidar_ros2_driver', 'progress': 'build'}
+[7.647214] (hclidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/konyun/hclidar_ros2_driver/build/hclidar_ros2_driver', '--', '-j4', '-l4'], 'cwd': '/home/konyun/hclidar_ros2_driver/build/hclidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'konyun'), ('SSH_AGENT_PID', '6420'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/konyun/Qt5.12.10/5.12.10/gcc_64/lib:'), ('HOME', '/home/konyun'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '5706'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8bad398c14e843c374812b3863b8cb15'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'konyun'), ('JOURNAL_STREAM', '8:59202'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'konyun'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/konyun/Qt5.12.10/5.12.10/gcc_64/bin:/home/konyun/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/7102,unix/ubuntu:/tmp/.ICE-unix/7102'), ('INVOCATION_ID', 'edebd5ff21534b5c9de8189d88e2501c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe0ba9d5_30cb_4cc6_b8e8_1da10fc2f20e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.171'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/konyun/hclidar_ros2_driver/build/hclidar_ros2_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8bad398c14e843c374812b3863b8cb15'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[7.730291] (-) TimerEvent: {}
+[7.832980] (-) TimerEvent: {}
+[7.864571] (hclidar_ros2_driver) StdoutLine: {'line': b'[ 77%] Built target lidar\n'}
+[7.933524] (-) TimerEvent: {}
+[7.978592] (hclidar_ros2_driver) StdoutLine: {'line': b'[100%] Built target hclidar_ros2_driver_node\n'}
+[8.019992] (hclidar_ros2_driver) CommandEnded: {'returncode': 0}
+[8.034288] (-) TimerEvent: {}
+[8.100726] (hclidar_ros2_driver) JobProgress: {'identifier': 'hclidar_ros2_driver', 'progress': 'install'}
+[8.139141] (hclidar_ros2_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/konyun/hclidar_ros2_driver/build/hclidar_ros2_driver'], 'cwd': '/home/konyun/hclidar_ros2_driver/build/hclidar_ros2_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'konyun'), ('SSH_AGENT_PID', '6420'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/konyun/Qt5.12.10/5.12.10/gcc_64/lib:'), ('HOME', '/home/konyun'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '5706'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8bad398c14e843c374812b3863b8cb15'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'konyun'), ('JOURNAL_STREAM', '8:59202'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'konyun'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/konyun/Qt5.12.10/5.12.10/gcc_64/bin:/home/konyun/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/7102,unix/ubuntu:/tmp/.ICE-unix/7102'), ('INVOCATION_ID', 'edebd5ff21534b5c9de8189d88e2501c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe0ba9d5_30cb_4cc6_b8e8_1da10fc2f20e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.171'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/konyun/hclidar_ros2_driver/build/hclidar_ros2_driver'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8bad398c14e843c374812b3863b8cb15'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[8.142278] (-) TimerEvent: {}
+[8.160790] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.162393] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[8.164032] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/lib/hclidar_ros2_driver/hclidar_ros2_driver_node\n'}
+[8.167146] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/hclidar_ros2_driver/launch/hclidar.py\n'}
+[8.167596] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/hclidar_ros2_driver/launch/hclidar_launch.py\n'}
+[8.168361] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/hclidar_ros2_driver/launch/hclidar_launch_view.py\n'}
+[8.168655] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/hclidar_ros2_driver/params/hclidar.yaml\n'}
+[8.170042] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/hclidar_ros2_driver\n'}
+[8.171437] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/hclidar_ros2_driver\n'}
+[8.172892] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/hclidar_ros2_driver/environment/ament_prefix_path.sh\n'}
+[8.173640] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/hclidar_ros2_driver/environment/ament_prefix_path.dsv\n'}
+[8.175156] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/hclidar_ros2_driver/environment/path.sh\n'}
+[8.176764] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/hclidar_ros2_driver/environment/path.dsv\n'}
+[8.179517] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/hclidar_ros2_driver/local_setup.bash\n'}
+[8.180800] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/hclidar_ros2_driver/local_setup.sh\n'}
+[8.181371] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/hclidar_ros2_driver/local_setup.zsh\n'}
+[8.182494] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/hclidar_ros2_driver/local_setup.dsv\n'}
+[8.183429] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/hclidar_ros2_driver/package.dsv\n'}
+[8.210492] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/ament_index/resource_index/packages/hclidar_ros2_driver\n'}
+[8.213527] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/hclidar_ros2_driver/cmake/hclidar_ros2_driverConfig.cmake\n'}
+[8.215392] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/hclidar_ros2_driver/cmake/hclidar_ros2_driverConfig-version.cmake\n'}
+[8.215537] (hclidar_ros2_driver) StdoutLine: {'line': b'-- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/hclidar_ros2_driver/package.xml\n'}
+[8.219888] (hclidar_ros2_driver) CommandEnded: {'returncode': 0}
+[8.243147] (-) TimerEvent: {}
+[8.344790] (-) TimerEvent: {}
+[8.446414] (-) TimerEvent: {}
+[8.547599] (-) TimerEvent: {}
+[8.587874] (hclidar_ros2_driver) JobEnded: {'identifier': 'hclidar_ros2_driver', 'rc': 0}
+[8.590721] (-) EventReactorShutdown: {}

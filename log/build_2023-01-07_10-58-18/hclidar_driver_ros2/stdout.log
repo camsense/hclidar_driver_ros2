@@ -1,0 +1,6 @@
+[35m[1mScanning dependencies of target lidar[0m
+[ 11%] [32mBuilding CXX object src/base/CMakeFiles/lidar.dir/hclidar.cpp.o[0m
+[ 22%] [32m[1mLinking CXX static library liblidar.a[0m
+[ 77%] Built target lidar
+[35m[1mScanning dependencies of target hclidar_driver_ros2_node[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/hclidar_driver_ros2_node.dir/src/hclidar_driver_ros2_node.cpp.o[0m

@@ -1,0 +1,51 @@
+[0.047s] Invoking command in '/home/konyun/hclidar_ros2_driver/build/hclidar_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/konyun/hclidar_ros2_driver/build/hclidar_ros2_driver -- -j4 -l4
+[0.130s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.191s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.621s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.646s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.784s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.800s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.111s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.294s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.299s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.644s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.869s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[2.007s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[2.054s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.254s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.321s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.323s] -- Configured cppcheck include dirs: /home/konyun/hclidar_ros2_driver/src
+[2.324s] -- Configured cppcheck exclude dirs and/or files: 
+[2.369s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.369s] -- Configured cpplint exclude dirs and/or files: 
+[2.374s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.384s] -- Added test 'lint_cmake' to check CMake code style
+[2.389s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.433s] -- Added test 'uncrustify' to check C / C++ code style
+[2.434s] -- Configured uncrustify additional arguments: 
+[2.441s] -- Added test 'xmllint' to check XML markup files
+[2.454s] -- Configuring done
+[2.506s] -- Generating done
+[2.518s] -- Build files have been written to: /home/konyun/hclidar_ros2_driver/build/hclidar_ros2_driver
+[2.605s] [ 63%] Built target lidar
+[2.634s] [ 81%] Built target hclidar_ros2_driver_client
+[2.676s] [100%] Built target hclidar_ros2_driver_node
+[2.714s] Invoked command in '/home/konyun/hclidar_ros2_driver/build/hclidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/konyun/hclidar_ros2_driver/build/hclidar_ros2_driver -- -j4 -l4
+[2.835s] Invoking command in '/home/konyun/hclidar_ros2_driver/build/hclidar_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/konyun/hclidar_ros2_driver/build/hclidar_ros2_driver
+[2.871s] -- Install configuration: ""
+[2.873s] -- Execute custom install script
+[2.877s] -- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/lib/hclidar_ros2_driver/hclidar_ros2_driver_node
+[2.878s] -- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/lib/hclidar_ros2_driver/hclidar_ros2_driver_client
+[2.880s] -- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/hclidar_ros2_driver/launch/hclidar.py
+[2.881s] -- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/hclidar_ros2_driver/launch/hclidar_launch.py
+[2.882s] -- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/hclidar_ros2_driver/launch/hclidar_launch_view.py
+[2.885s] -- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/hclidar_ros2_driver/params/hclidar.yaml
+[2.885s] CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[2.886s]   ament_cmake_symlink_install_directory() can't find
+[2.886s]   '/home/konyun/hclidar_ros2_driver/config'
+[2.886s] Call Stack (most recent call first):
+[2.887s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317 (ament_cmake_symlink_install_directory)
+[2.887s]   cmake_install.cmake:41 (include)
+[2.887s] 
+[2.887s] 
+[2.892s] Invoked command in '/home/konyun/hclidar_ros2_driver/build/hclidar_ros2_driver' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/konyun/hclidar_ros2_driver/build/hclidar_ros2_driver

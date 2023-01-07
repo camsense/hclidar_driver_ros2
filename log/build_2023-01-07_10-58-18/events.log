@@ -1,0 +1,304 @@
+[0.000000] (-) TimerEvent: {}
+[0.000778] (hclidar_driver_ros2) JobQueued: {'identifier': 'hclidar_driver_ros2', 'dependencies': OrderedDict()}
+[0.001389] (hclidar_driver_ros2) JobStarted: {'identifier': 'hclidar_driver_ros2'}
+[0.042579] (hclidar_driver_ros2) JobProgress: {'identifier': 'hclidar_driver_ros2', 'progress': 'cmake'}
+[0.045814] (hclidar_driver_ros2) JobProgress: {'identifier': 'hclidar_driver_ros2', 'progress': 'build'}
+[0.049271] (hclidar_driver_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/konyun/hclidar_ros2_driver/build/hclidar_driver_ros2', '--', '-j4', '-l4'], 'cwd': '/home/konyun/hclidar_ros2_driver/build/hclidar_driver_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'konyun'), ('SSH_AGENT_PID', '6420'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/home/konyun/Qt5.12.10/5.12.10/gcc_64/lib:'), ('HOME', '/home/konyun'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '5706'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8bad398c14e843c374812b3863b8cb15'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/konyun/hclidar_ros2_driver/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'konyun'), ('JOURNAL_STREAM', '8:59202'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'konyun'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/konyun/Qt5.12.10/5.12.10/gcc_64/bin:/home/konyun/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/7102,unix/ubuntu:/tmp/.ICE-unix/7102'), ('INVOCATION_ID', 'edebd5ff21534b5c9de8189d88e2501c'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fe0ba9d5_30cb_4cc6_b8e8_1da10fc2f20e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.171'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/konyun/hclidar_ros2_driver/build/hclidar_driver_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=8bad398c14e843c374812b3863b8cb15'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2:/opt/ros/foxy')]), 'shell': False}
+[0.140893] (-) TimerEvent: {}
+[0.244280] (-) TimerEvent: {}
+[0.346048] (-) TimerEvent: {}
+[0.349305] (hclidar_driver_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target lidar\x1b[0m\n'}
+[0.396824] (hclidar_driver_ros2) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object src/base/CMakeFiles/lidar.dir/hclidar.cpp.o\x1b[0m\n'}
+[0.446547] (-) TimerEvent: {}
+[0.547430] (-) TimerEvent: {}
+[0.648491] (-) TimerEvent: {}
+[0.749159] (-) TimerEvent: {}
+[0.850722] (-) TimerEvent: {}
+[0.951996] (-) TimerEvent: {}
+[1.052968] (-) TimerEvent: {}
+[1.154511] (-) TimerEvent: {}
+[1.255496] (-) TimerEvent: {}
+[1.356714] (-) TimerEvent: {}
+[1.457657] (-) TimerEvent: {}
+[1.558772] (-) TimerEvent: {}
+[1.659883] (-) TimerEvent: {}
+[1.761266] (-) TimerEvent: {}
+[1.815959] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[KBOOL HCLidar::initialize(const char*, const char*, int, int, bool, bool, bool)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.816829] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:689:108:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KbDistQ2\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[1.817184] (hclidar_driver_ros2) StderrLine: {'line': b'  689 | BOOL HCLidar::initialize(const char* chPort, const char* chLidarModel,int iBaud, int iReadTimeoutMs,  \x1b[01;35m\x1b[Kbool bDistQ2\x1b[m\x1b[K,bool bGetLoopData, bool bPollMode)\n'}
+[1.817418] (hclidar_driver_ros2) StderrLine: {'line': b'      |                                                                                                       \x1b[01;35m\x1b[K~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[1.820680] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid HCLidar::readData()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.821047] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:885:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[KUINT64\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.821223] (hclidar_driver_ros2) StderrLine: {'line': b'  885 |     if (\x1b[01;35m\x1b[K(endTime - m_u64StartTimeNoData) >= m_sSDKPara.iNoDataMS * 1000\x1b[m\x1b[K)\n'}
+[1.821774] (hclidar_driver_ros2) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.827191] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid HCLidar::threadParse()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.827692] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:976:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[KUINT64\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.828320] (hclidar_driver_ros2) StderrLine: {'line': b'  976 |    if (\x1b[01;35m\x1b[Ku64Int >= m_iWaitIDTimeMs\x1b[m\x1b[K)\n'}
+[1.828597] (hclidar_driver_ros2) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.832318] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool HCLidar::processData()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.832876] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:1156:5:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99 clause does not guard... [\x1b[01;35m\x1b[K-Wmisleading-indentation\x1b[m\x1b[K]\n'}
+[1.833380] (hclidar_driver_ros2) StderrLine: {'line': b' 1156 |     \x1b[01;35m\x1b[Kif\x1b[m\x1b[K(m_lstBuff.size()<=2)\n'}
+[1.834733] (hclidar_driver_ros2) StderrLine: {'line': b'      |     \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.835113] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:1159:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K...this statement, but the latter is misleadingly indented as if it were guarded by the \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.835536] (hclidar_driver_ros2) StderrLine: {'line': b' 1159 |  \x1b[01;36m\x1b[Kif\x1b[m\x1b[K (checkContinuePacketErr())\n'}
+[1.835803] (hclidar_driver_ros2) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[1.836090] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:1164:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.837654] (hclidar_driver_ros2) StderrLine: {'line': b' 1164 |     for(int i=0;\x1b[01;35m\x1b[Ki<m_lstBuff.size()-1\x1b[m\x1b[K;i++)\n'}
+[1.838800] (hclidar_driver_ros2) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.842678] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool HCLidar::getDevID(std::vector<unsigned char>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.845024] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:1319:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.847606] (hclidar_driver_ros2) StderrLine: {'line': b' 1319 |   if (\x1b[01;35m\x1b[KlstBuff.size() < iLen\x1b[m\x1b[K)\n'}
+[1.849175] (hclidar_driver_ros2) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[1.849773] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:1360:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat not a string literal and no format arguments [\x1b[01;35m\x1b[K-Wformat-security\x1b[m\x1b[K]\n'}
+[1.850218] (hclidar_driver_ros2) StderrLine: {'line': b' 1360 |    LOG_INFO(\x1b[01;35m\x1b[KchTemp\x1b[m\x1b[K);\n'}
+[1.850824] (hclidar_driver_ros2) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.851319] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:1382:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.852306] (hclidar_driver_ros2) StderrLine: {'line': b' 1382 |         if(\x1b[01;35m\x1b[KlstBuff.size() < iLen\x1b[m\x1b[K)\n'}
+[1.853003] (hclidar_driver_ros2) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[1.853418] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:1432:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.854522] (hclidar_driver_ros2) StderrLine: {'line': b' 1432 |         if(\x1b[01;35m\x1b[KlstBuff.size() < iLen\x1b[m\x1b[K)\n'}
+[1.855350] (hclidar_driver_ros2) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[1.856118] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool HCLidar::calStartInfo(char*, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.857091] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:1474:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[KUINT\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.857895] (hclidar_driver_ros2) StderrLine: {'line': b' 1474 |     for (UINT i = 0; \x1b[01;35m\x1b[Ki < iLen\x1b[m\x1b[K; i++)\n'}
+[1.858224] (hclidar_driver_ros2) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~~^~~~~~\x1b[m\x1b[K\n'}
+[1.861879] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool HCLidar::getStartInfo(std::vector<unsigned char>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.862909] (-) TimerEvent: {}
+[1.863666] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:1595:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.864275] (hclidar_driver_ros2) StderrLine: {'line': b' 1595 |  int iMin = \x1b[01;35m\x1b[KiLen < lstBuff.size()\x1b[m\x1b[K ? iLen : lstBuff.size();\n'}
+[1.865007] (hclidar_driver_ros2) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.869081] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool HCLidar::calMCUFrame(char*, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.869958] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:1725:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[KUINT\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.870939] (hclidar_driver_ros2) StderrLine: {'line': b' 1725 |     for (UINT i = 0; \x1b[01;35m\x1b[Ki < iLen-1\x1b[m\x1b[K; i++)\n'}
+[1.872167] (hclidar_driver_ros2) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K~~^~~~~~~~\x1b[m\x1b[K\n'}
+[1.872534] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool HCLidar::getMCUCmd(std::vector<unsigned char>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.873046] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:1741:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.873313] (hclidar_driver_ros2) StderrLine: {'line': b' 1741 |     if(\x1b[01;35m\x1b[KiPackLen <= lstBuff.size()\x1b[m\x1b[K)//have a good packet\n'}
+[1.873497] (hclidar_driver_ros2) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K~~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.873711] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool HCLidar::getPointCloud(std::vector<unsigned char>&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.876060] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:1783:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.876609] (hclidar_driver_ros2) StderrLine: {'line': b' 1783 |  int iMin = \x1b[01;35m\x1b[KiLen < lstBuff.size()\x1b[m\x1b[K ? iLen : lstBuff.size();\n'}
+[1.876808] (hclidar_driver_ros2) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~~^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.877624] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:1784:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.878132] (hclidar_driver_ros2) StderrLine: {'line': b' 1784 |  if (\x1b[01;35m\x1b[KlstBuff.size() < iLen\x1b[m\x1b[K)\n'}
+[1.878449] (hclidar_driver_ros2) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[1.878789] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:1819:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<unsigned char>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.879044] (hclidar_driver_ros2) StderrLine: {'line': b' 1819 |  if (\x1b[01;35m\x1b[KiPackLen <= lstBuff.size()\x1b[m\x1b[K)//have a good packet\n'}
+[1.879621] (hclidar_driver_ros2) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K~~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.879797] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool HCLidar::parserRangeEX(LstPointCloud&, const char*, int, int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.879963] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:1870:82:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KiIndex\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[1.880127] (hclidar_driver_ros2) StderrLine: {'line': b' 1870 | bool HCLidar::parserRangeEX(LstPointCloud &resultRange, const char * chBuff, \x1b[01;35m\x1b[Kint iIndex\x1b[m\x1b[K, int in_numData, int iPointSize)\n'}
+[1.880471] (hclidar_driver_ros2) StderrLine: {'line': b'      |                                                                              \x1b[01;35m\x1b[K~~~~^~~~~~\x1b[m\x1b[K\n'}
+[1.884828] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool HCLidar::checkDataCal(std::vector<unsigned char>&, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.885458] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:2075:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.885770] (hclidar_driver_ros2) StderrLine: {'line': b' 2075 |  for (int i = 0; \x1b[01;35m\x1b[Ki < temp.size()\x1b[m\x1b[K; i++)\n'}
+[1.886012] (hclidar_driver_ros2) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.886241] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:2081:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<int>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.886790] (hclidar_driver_ros2) StderrLine: {'line': b' 2081 |  for (int i = 0; \x1b[01;35m\x1b[Ki < temp.size()\x1b[m\x1b[K; i++)\n'}
+[1.887051] (hclidar_driver_ros2) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.892692] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid HCLidar::checkInvalidLowSpeed(UINT16)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.893583] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:2225:52:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[KUINT64\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.895102] (hclidar_driver_ros2) StderrLine: {'line': b' 2225 |             if (\x1b[01;35m\x1b[K(endTime - m_u64StartTimeLowSpeed) >= m_sSDKPara.iSpeedContinueMS*1000\x1b[m\x1b[K)\n'}
+[1.896516] (hclidar_driver_ros2) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.897045] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid HCLidar::checkInvalidHighSpeed(UINT16)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.897579] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:2251:53:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.899366] (hclidar_driver_ros2) StderrLine: {'line': b' 2251 |             if (\x1b[01;35m\x1b[K(endTime - m_u64StartTimeHighSpeed) >= m_sSDKPara.iSpeedContinueMS*1000\x1b[m\x1b[K)\n'}
+[1.899902] (hclidar_driver_ros2) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.900575] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid HCLidar::checkSharkBlocked()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.901021] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:2325:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[KUINT64\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.901552] (hclidar_driver_ros2) StderrLine: {'line': b' 2325 |         if(\x1b[01;35m\x1b[Ku64Temp >= (m_sSDKPara.iBlockContinueMS+2000)*1000\x1b[m\x1b[K) //3.5+2S\n'}
+[1.902255] (hclidar_driver_ros2) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.902933] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:2330:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[KUINT64\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.903609] (hclidar_driver_ros2) StderrLine: {'line': b' 2330 |         else if(\x1b[01;35m\x1b[Ku64Temp >= m_sSDKPara.iBlockContinueMS*1000\x1b[m\x1b[K && u64Temp < (m_sSDKPara.iBlockContinueMS+2000)*1000)//3.5 - 4.5s\n'}
+[1.904398] (hclidar_driver_ros2) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.905488] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:2330:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[KUINT64\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.906734] (hclidar_driver_ros2) StderrLine: {'line': b' 2330 |         else if(u64Temp >= m_sSDKPara.iBlockContinueMS*1000 && \x1b[01;35m\x1b[Ku64Temp < (m_sSDKPara.iBlockContinueMS+2000)*1000\x1b[m\x1b[K)//3.5 - 4.5s\n'}
+[1.909129] (hclidar_driver_ros2) StderrLine: {'line': b'      |                                                                \x1b[01;35m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.910747] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid HCLidar::checkSharkInvalidPoints(tsPointCloud&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.911828] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:2375:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.912313] (hclidar_driver_ros2) StderrLine: {'line': b' 2375 |             if (\x1b[01;35m\x1b[K(endTime - m_u64StartTimeInvalidPoints) >= m_sSDKPara.iCoverContinueMS*1000\x1b[m\x1b[K)\n'}
+[1.912657] (hclidar_driver_ros2) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.912975] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid HCLidar::pollModePointCloud()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.913321] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:2427:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::vector<tsPointCloud> >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.914481] (hclidar_driver_ros2) StderrLine: {'line': b' 2427 |   if (\x1b[01;35m\x1b[Km_Circles.size() > m_sSDKPara.iCirclesBuffSize\x1b[m\x1b[K)\n'}
+[1.915579] (hclidar_driver_ros2) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.916429] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:2435:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<tsPointCloud>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.916754] (hclidar_driver_ros2) StderrLine: {'line': b' 2435 |   if (\x1b[01;35m\x1b[Km_resultRange.size() > m_sSDKPara.iPollBuffSize\x1b[m\x1b[K)\n'}
+[1.917133] (hclidar_driver_ros2) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.917552] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid HCLidar::callBackFunPointCloud()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.918289] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:2463:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<tsPointCloud>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.918801] (hclidar_driver_ros2) StderrLine: {'line': b' 2463 |   if (\x1b[01;35m\x1b[Km_resultRange.size() >= m_sSDKPara.iCallbackBuffSize\x1b[m\x1b[K)\n'}
+[1.919504] (hclidar_driver_ros2) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.920097] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool HCLidar::getErrorCode(int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.920833] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:2539:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[KUINT64\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.921461] (hclidar_driver_ros2) StderrLine: {'line': b' 2539 |   if (\x1b[01;35m\x1b[Ku64Int <= iMs*1000\x1b[m\x1b[K)\n'}
+[1.922103] (hclidar_driver_ros2) StderrLine: {'line': b'      |       \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.922519] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool HCLidar::rockCheckLDSInfo(UINT8*, unLidarInfo&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.923377] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:2563:18:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.923861] (hclidar_driver_ros2) StderrLine: {'line': b' 2563 |  if (\x1b[01;35m\x1b[Kdecode_size < sizeof(unLidarInfo)\x1b[m\x1b[K)\n'}
+[1.924608] (hclidar_driver_ros2) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.925192] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:2556:6:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ksize\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[1.925477] (hclidar_driver_ros2) StderrLine: {'line': b' 2556 |  int \x1b[01;35m\x1b[Ksize\x1b[m\x1b[K = 0;\n'}
+[1.925733] (hclidar_driver_ros2) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.925981] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid HCLidar::rockDecodeLDSInfoPacket(UINT8*, UINT8*, int&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.926989] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:2585:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.927244] (hclidar_driver_ros2) StderrLine: {'line': b' 2585 |  for (int i = 0; i < RCV_SIZE; i++)\n'}
+[1.927366] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:2589:10:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.927459] (hclidar_driver_ros2) StderrLine: {'line': b' 2589 |    if (\x1b[01;35m\x1b[Ki < RCV_SIZE - 1\x1b[m\x1b[K)\n'}
+[1.927546] (hclidar_driver_ros2) StderrLine: {'line': b'      |        \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.927746] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool HCLidar::rockCheckCRC(unLidarInfo)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.928149] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:2605:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.928368] (hclidar_driver_ros2) StderrLine: {'line': b' 2605 |  for (int i = 0; \x1b[01;35m\x1b[Ki < (sizeof(unLidarInfo) / sizeof(UINT16) - 1)\x1b[m\x1b[K; i++)\n'}
+[1.928485] (hclidar_driver_ros2) StderrLine: {'line': b'      |                  \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.928569] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid HCLidar::checkChangeSpeed()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.928673] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:2639:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[KUINT64\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[1.928817] (hclidar_driver_ros2) StderrLine: {'line': b' 2639 |  if (\x1b[01;35m\x1b[Ku64Temp >= (m_sSDKPara.iChangeSpeedMS ) * 1000\x1b[m\x1b[K) //2.5S\n'}
+[1.929000] (hclidar_driver_ros2) StderrLine: {'line': b'      |      \x1b[01;35m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.963435] (-) TimerEvent: {}
+[2.064073] (-) TimerEvent: {}
+[2.165805] (-) TimerEvent: {}
+[2.267396] (-) TimerEvent: {}
+[2.368143] (-) TimerEvent: {}
+[2.469034] (-) TimerEvent: {}
+[2.569971] (-) TimerEvent: {}
+[2.671895] (-) TimerEvent: {}
+[2.773372] (-) TimerEvent: {}
+[2.874944] (-) TimerEvent: {}
+[2.976595] (-) TimerEvent: {}
+[3.077527] (-) TimerEvent: {}
+[3.179216] (-) TimerEvent: {}
+[3.280375] (-) TimerEvent: {}
+[3.381183] (-) TimerEvent: {}
+[3.481665] (-) TimerEvent: {}
+[3.583479] (-) TimerEvent: {}
+[3.684772] (-) TimerEvent: {}
+[3.786274] (-) TimerEvent: {}
+[3.886687] (-) TimerEvent: {}
+[3.988070] (-) TimerEvent: {}
+[4.066087] (hclidar_driver_ros2) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking CXX static library liblidar.a\x1b[0m\n'}
+[4.089247] (-) TimerEvent: {}
+[4.190381] (-) TimerEvent: {}
+[4.291056] (-) TimerEvent: {}
+[4.391862] (-) TimerEvent: {}
+[4.460684] (hclidar_driver_ros2) StdoutLine: {'line': b'[ 77%] Built target lidar\n'}
+[4.494277] (-) TimerEvent: {}
+[4.502033] (hclidar_driver_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target hclidar_driver_ros2_node\x1b[0m\n'}
+[4.594890] (-) TimerEvent: {}
+[4.695901] (-) TimerEvent: {}
+[4.713267] (hclidar_driver_ros2) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/hclidar_driver_ros2_node.dir/src/hclidar_driver_ros2_node.cpp.o\x1b[0m\n'}
+[4.796658] (-) TimerEvent: {}
+[4.898690] (-) TimerEvent: {}
+[5.000361] (-) TimerEvent: {}
+[5.101287] (-) TimerEvent: {}
+[5.202232] (-) TimerEvent: {}
+[5.303602] (-) TimerEvent: {}
+[5.404288] (-) TimerEvent: {}
+[5.505512] (-) TimerEvent: {}
+[5.607283] (-) TimerEvent: {}
+[5.708499] (-) TimerEvent: {}
+[5.809317] (-) TimerEvent: {}
+[5.910279] (-) TimerEvent: {}
+[6.011550] (-) TimerEvent: {}
+[6.112387] (-) TimerEvent: {}
+[6.213251] (-) TimerEvent: {}
+[6.314041] (-) TimerEvent: {}
+[6.415468] (-) TimerEvent: {}
+[6.516040] (-) TimerEvent: {}
+[6.617861] (-) TimerEvent: {}
+[6.719156] (-) TimerEvent: {}
+[6.820354] (-) TimerEvent: {}
+[6.922042] (-) TimerEvent: {}
+[7.023703] (-) TimerEvent: {}
+[7.125014] (-) TimerEvent: {}
+[7.226399] (-) TimerEvent: {}
+[7.328187] (-) TimerEvent: {}
+[7.430046] (-) TimerEvent: {}
+[7.532009] (-) TimerEvent: {}
+[7.633354] (-) TimerEvent: {}
+[7.734135] (-) TimerEvent: {}
+[7.835511] (-) TimerEvent: {}
+[7.938860] (-) TimerEvent: {}
+[8.039618] (-) TimerEvent: {}
+[8.141208] (-) TimerEvent: {}
+[8.242399] (-) TimerEvent: {}
+[8.344452] (-) TimerEvent: {}
+[8.445690] (-) TimerEvent: {}
+[8.546578] (-) TimerEvent: {}
+[8.648159] (-) TimerEvent: {}
+[8.749868] (-) TimerEvent: {}
+[8.851267] (-) TimerEvent: {}
+[8.952816] (-) TimerEvent: {}
+[9.053413] (-) TimerEvent: {}
+[9.154857] (-) TimerEvent: {}
+[9.255591] (-) TimerEvent: {}
+[9.356881] (-) TimerEvent: {}
+[9.451055] (hclidar_driver_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/hclidar_driver_ros2_node.cpp:34\x1b[m\x1b[K:\n'}
+[9.451437] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/base/HcSDK.h:82:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wpedantic\x1b[m\x1b[K]\n'}
+[9.451530] (hclidar_driver_ros2) StderrLine: {'line': b'   82 | }\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[9.451596] (hclidar_driver_ros2) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[9.451987] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/hclidar_driver_ros2_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid sdkCallBackFunErrorCode(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.452393] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/hclidar_driver_ros2_node.cpp:46:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat not a string literal and no format arguments [\x1b[01;35m\x1b[K-Wformat-security\x1b[m\x1b[K]\n'}
+[9.452588] (hclidar_driver_ros2) StderrLine: {'line': b'   46 |  printf(\x1b[01;35m\x1b[Kbuff\x1b[m\x1b[K);\n'}
+[9.452651] (hclidar_driver_ros2) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[9.452712] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/hclidar_driver_ros2_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid sdkCallBackFunSecondInfo(tsSDKStatistic)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.452790] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/hclidar_driver_ros2_node.cpp:65:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat not a string literal and no format arguments [\x1b[01;35m\x1b[K-Wformat-security\x1b[m\x1b[K]\n'}
+[9.452851] (hclidar_driver_ros2) StderrLine: {'line': b'   65 |  printf(\x1b[01;35m\x1b[Kbuff\x1b[m\x1b[K);\n'}
+[9.452912] (hclidar_driver_ros2) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[9.456425] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/hclidar_driver_ros2_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid sdkCallBackFunPointCloud(LstPointCloud)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.457039] (-) TimerEvent: {}
+[9.457908] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/hclidar_driver_ros2_node.cpp:79:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 3 has type \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<tsPointCloud>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wformat=\x1b[m\x1b[K]\n'}
+[9.458396] (hclidar_driver_ros2) StderrLine: {'line': b'   79 |  sprintf(buff, "---------------Size=\x1b[01;35m\x1b[K%d\x1b[m\x1b[K\\n", \x1b[32m\x1b[KlstG.size()\x1b[m\x1b[K);\n'}
+[9.458588] (hclidar_driver_ros2) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K~^\x1b[m\x1b[K     \x1b[32m\x1b[K~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.458836] (hclidar_driver_ros2) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K|\x1b[m\x1b[K              \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[9.459712] (hclidar_driver_ros2) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[Kint\x1b[m\x1b[K            \x1b[32m\x1b[Kstd::vector<tsPointCloud>::size_type {aka long unsigned int}\x1b[m\x1b[K\n'}
+[9.461223] (hclidar_driver_ros2) StderrLine: {'line': b'      |                                     \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[9.462036] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/hclidar_driver_ros2_node.cpp:80:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat not a string literal and no format arguments [\x1b[01;35m\x1b[K-Wformat-security\x1b[m\x1b[K]\n'}
+[9.462405] (hclidar_driver_ros2) StderrLine: {'line': b'   80 |  printf(\x1b[01;35m\x1b[Kbuff\x1b[m\x1b[K);\n'}
+[9.462757] (hclidar_driver_ros2) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[9.475587] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/hclidar_driver_ros2_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid sdkCallBackFunDistQ2(LstNodeDistQ2)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.477803] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/hclidar_driver_ros2_node.cpp:106:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[KsInfo\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K-Wunused-but-set-variable\x1b[m\x1b[K]\n'}
+[9.479648] (hclidar_driver_ros2) StderrLine: {'line': b'  106 |     for(auto \x1b[01;35m\x1b[KsInfo\x1b[m\x1b[K : lstG)\n'}
+[9.481022] (hclidar_driver_ros2) StderrLine: {'line': b'      |              \x1b[01;35m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[9.546435] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/hclidar_driver_ros2_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.547280] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/hclidar_driver_ros2_node.cpp:165:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KsetSDKCallBackFunDistQ2\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KsdkCallBackFunDistQ2\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[9.547654] (hclidar_driver_ros2) StderrLine: {'line': b'  165 |         \x1b[01;31m\x1b[KsetSDKCallBackFunDistQ2\x1b[m\x1b[K(funDistQ2);\n'}
+[9.548177] (hclidar_driver_ros2) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.548525] (hclidar_driver_ros2) StderrLine: {'line': b'      |         \x1b[32m\x1b[KsdkCallBackFunDistQ2\x1b[m\x1b[K\n'}
+[9.557883] (-) TimerEvent: {}
+[9.559952] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/hclidar_driver_ros2_node.cpp:282:40:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<tsPointCloud>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[9.560696] (hclidar_driver_ros2) StderrLine: {'line': b'  282 |                         for(int i=0; \x1b[01;35m\x1b[Ki < lstG.size()\x1b[m\x1b[K; i++)\n'}
+[9.561544] (hclidar_driver_ros2) StderrLine: {'line': b'      |                                      \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.563075] (hclidar_driver_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/konyun/hclidar_ros2_driver/src/hclidar_driver_ros2_node.cpp:298:51:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<tsPointCloud>::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K-Wsign-compare\x1b[m\x1b[K]\n'}
+[9.564466] (hclidar_driver_ros2) StderrLine: {'line': b'  298 |                             if(index >=0 && \x1b[01;35m\x1b[Kindex < lstG.size()\x1b[m\x1b[K)\n'}
+[9.566529] (hclidar_driver_ros2) StderrLine: {'line': b'      |                                             \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.659092] (-) TimerEvent: {}
+[9.760510] (-) TimerEvent: {}
+[9.861783] (-) TimerEvent: {}
+[9.962783] (-) TimerEvent: {}
+[10.064231] (-) TimerEvent: {}
+[10.165722] (-) TimerEvent: {}
+[10.267368] (-) TimerEvent: {}
+[10.368904] (-) TimerEvent: {}
+[10.469876] (-) TimerEvent: {}
+[10.570645] (-) TimerEvent: {}
+[10.672376] (-) TimerEvent: {}
+[10.773636] (-) TimerEvent: {}
+[10.875372] (-) TimerEvent: {}
+[10.976381] (-) TimerEvent: {}
+[11.076937] (-) TimerEvent: {}
+[11.178690] (-) TimerEvent: {}
+[11.279546] (-) TimerEvent: {}
+[11.380461] (-) TimerEvent: {}
+[11.481003] (-) TimerEvent: {}
+[11.582172] (-) TimerEvent: {}
+[11.682773] (-) TimerEvent: {}
+[11.784264] (-) TimerEvent: {}
+[11.885131] (-) TimerEvent: {}
+[11.986514] (-) TimerEvent: {}
+[12.013052] (hclidar_driver_ros2) StderrLine: {'line': b'make[2]: *** [CMakeFiles/hclidar_driver_ros2_node.dir/build.make:63: CMakeFiles/hclidar_driver_ros2_node.dir/src/hclidar_driver_ros2_node.cpp.o] Error 1\n'}
+[12.014388] (hclidar_driver_ros2) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:98: CMakeFiles/hclidar_driver_ros2_node.dir/all] Error 2\n'}
+[12.014889] (hclidar_driver_ros2) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[12.023490] (hclidar_driver_ros2) CommandEnded: {'returncode': 2}
+[12.086712] (-) TimerEvent: {}
+[12.163677] (hclidar_driver_ros2) JobEnded: {'identifier': 'hclidar_driver_ros2', 'rc': 2}
+[12.176355] (-) EventReactorShutdown: {}

@@ -1,0 +1,66 @@
+[0.051s] Invoking command in '/home/konyun/hclidar_ros2_driver/build/hclidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/konyun/hclidar_ros2_driver/build/hclidar_ros2_driver -- -j4 -l4
+[0.196s] [ 63%] Built target lidar
+[0.218s] [ 81%] Built target hclidar_ros2_driver_client
+[0.227s] [35m[1mScanning dependencies of target hclidar_ros2_driver_node[0m
+[0.289s] [ 90%] [32mBuilding CXX object CMakeFiles/hclidar_ros2_driver_node.dir/src/hclidar_ros2_driver_node.cpp.o[0m
+[2.872s] In file included from [01m[K/home/konyun/hclidar_ros2_driver/src/hclidar_ros2_driver_node.cpp:34[m[K:
+[2.873s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/HcSDK.h:77:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[2.873s]    77 | }[01;35m[K;[m[K
+[2.873s]       |  [01;35m[K^[m[K
+[2.874s] [01m[K/home/konyun/hclidar_ros2_driver/src/hclidar_ros2_driver_node.cpp:[m[K In function ‘[01m[Kvoid sdkCallBackFunErrorCode(int)[m[K’:
+[2.874s] [01m[K/home/konyun/hclidar_ros2_driver/src/hclidar_ros2_driver_node.cpp:46:9:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+[2.875s]    46 |  printf([01;35m[Kbuff[m[K);
+[2.875s]       |         [01;35m[K^~~~[m[K
+[2.875s] [01m[K/home/konyun/hclidar_ros2_driver/src/hclidar_ros2_driver_node.cpp:[m[K In function ‘[01m[Kvoid sdkCallBackFunSecondInfo(tsSDKStatistic)[m[K’:
+[2.875s] [01m[K/home/konyun/hclidar_ros2_driver/src/hclidar_ros2_driver_node.cpp:65:9:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+[2.875s]    65 |  printf([01;35m[Kbuff[m[K);
+[2.875s]       |         [01;35m[K^~~~[m[K
+[2.878s] [01m[K/home/konyun/hclidar_ros2_driver/src/hclidar_ros2_driver_node.cpp:[m[K In function ‘[01m[Kvoid sdkCallBackFunPointCloud(LstPointCloud)[m[K’:
+[2.878s] [01m[K/home/konyun/hclidar_ros2_driver/src/hclidar_ros2_driver_node.cpp:79:38:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 3 has type ‘[01m[Kstd::vector<tsPointCloud>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[2.878s]    79 |  sprintf(buff, "---------------Size=[01;35m[K%d[m[K\n", [32m[KlstG.size()[m[K);
+[2.878s]       |                                     [01;35m[K~^[m[K     [32m[K~~~~~~~~~~~[m[K
+[2.879s]       |                                      [01;35m[K|[m[K              [32m[K|[m[K
+[2.879s]       |                                      [01;35m[Kint[m[K            [32m[Kstd::vector<tsPointCloud>::size_type {aka long unsigned int}[m[K
+[2.879s]       |                                     [32m[K%ld[m[K
+[2.879s] [01m[K/home/konyun/hclidar_ros2_driver/src/hclidar_ros2_driver_node.cpp:80:9:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+[2.879s]    80 |  printf([01;35m[Kbuff[m[K);
+[2.880s]       |         [01;35m[K^~~~[m[K
+[2.888s] [01m[K/home/konyun/hclidar_ros2_driver/src/hclidar_ros2_driver_node.cpp:[m[K In function ‘[01m[Kvoid sdkCallBackFunDistQ2(LstNodeDistQ2)[m[K’:
+[2.888s] [01m[K/home/konyun/hclidar_ros2_driver/src/hclidar_ros2_driver_node.cpp:106:14:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KsInfo[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[2.888s]   106 |     for(auto [01;35m[KsInfo[m[K : lstG)
+[2.889s]       |              [01;35m[K^~~~~[m[K
+[2.950s] [01m[K/home/konyun/hclidar_ros2_driver/src/hclidar_ros2_driver_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.950s] [01m[K/home/konyun/hclidar_ros2_driver/src/hclidar_ros2_driver_node.cpp:280:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<tsPointCloud>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[2.951s]   280 |                         for(int i=0; [01;35m[Ki < lstG.size()[m[K; i++)
+[2.952s]       |                                      [01;35m[K~~^~~~~~~~~~~~~[m[K
+[2.952s] [01m[K/home/konyun/hclidar_ros2_driver/src/hclidar_ros2_driver_node.cpp:295:51:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<tsPointCloud>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[2.953s]   295 |                             if(index >=0 && [01;35m[Kindex < lstG.size()[m[K)
+[2.953s]       |                                             [01;35m[K~~~~~~^~~~~~~~~~~~~[m[K
+[6.911s] [100%] [32m[1mLinking CXX executable hclidar_ros2_driver_node[0m
+[7.465s] [100%] Built target hclidar_ros2_driver_node
+[7.519s] Invoked command in '/home/konyun/hclidar_ros2_driver/build/hclidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/konyun/hclidar_ros2_driver/build/hclidar_ros2_driver -- -j4 -l4
+[7.712s] Invoking command in '/home/konyun/hclidar_ros2_driver/build/hclidar_ros2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/konyun/hclidar_ros2_driver/build/hclidar_ros2_driver
+[7.737s] -- Install configuration: ""
+[7.740s] -- Execute custom install script
+[7.744s] -- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/lib/hclidar_ros2_driver/hclidar_ros2_driver_node
+[7.744s] -- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/lib/hclidar_ros2_driver/hclidar_ros2_driver_client
+[7.745s] -- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/hclidar_ros2_driver/launch/hclidar.py
+[7.745s] -- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/hclidar_ros2_driver/launch/hclidar_launch.py
+[7.745s] -- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/hclidar_ros2_driver/launch/hclidar_launch_view.py
+[7.746s] -- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/hclidar_ros2_driver/params/hclidar.yaml
+[7.746s] -- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/ament_index/resource_index/package_run_dependencies/hclidar_ros2_driver
+[7.747s] -- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/ament_index/resource_index/parent_prefix_path/hclidar_ros2_driver
+[7.747s] -- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/hclidar_ros2_driver/environment/ament_prefix_path.sh
+[7.749s] -- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/hclidar_ros2_driver/environment/ament_prefix_path.dsv
+[7.751s] -- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/hclidar_ros2_driver/environment/path.sh
+[7.753s] -- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/hclidar_ros2_driver/environment/path.dsv
+[7.754s] -- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/hclidar_ros2_driver/local_setup.bash
+[7.756s] -- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/hclidar_ros2_driver/local_setup.sh
+[7.758s] -- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/hclidar_ros2_driver/local_setup.zsh
+[7.760s] -- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/hclidar_ros2_driver/local_setup.dsv
+[7.760s] -- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/hclidar_ros2_driver/package.dsv
+[7.807s] -- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/ament_index/resource_index/packages/hclidar_ros2_driver
+[7.809s] -- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/hclidar_ros2_driver/cmake/hclidar_ros2_driverConfig.cmake
+[7.811s] -- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/hclidar_ros2_driver/cmake/hclidar_ros2_driverConfig-version.cmake
+[7.812s] -- Up-to-date symlink: /home/konyun/hclidar_ros2_driver/install/hclidar_ros2_driver/share/hclidar_ros2_driver/package.xml
+[7.826s] Invoked command in '/home/konyun/hclidar_ros2_driver/build/hclidar_ros2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/konyun/hclidar_ros2_driver/build/hclidar_ros2_driver
