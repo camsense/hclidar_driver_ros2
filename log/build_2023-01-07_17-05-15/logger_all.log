@@ -1,0 +1,104 @@
+[0.228s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.228s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f51ee4ab550>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f51ee4ab550>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f51ee4aba90>)
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.295s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/konyun/hclidar_ros2_driver'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.331s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'hclidar_driver_ros2'
+[0.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.420s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/konyun/hclidar_ros2_driver/install
+[0.423s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[0.425s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.542s] Level 5:colcon.colcon_core.verb:set package 'hclidar_driver_ros2' build argument 'cmake_args' from command line to 'None'
+[0.542s] Level 5:colcon.colcon_core.verb:set package 'hclidar_driver_ros2' build argument 'cmake_target' from command line to 'None'
+[0.543s] Level 5:colcon.colcon_core.verb:set package 'hclidar_driver_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.543s] Level 5:colcon.colcon_core.verb:set package 'hclidar_driver_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.543s] Level 5:colcon.colcon_core.verb:set package 'hclidar_driver_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.543s] Level 5:colcon.colcon_core.verb:set package 'hclidar_driver_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.543s] Level 5:colcon.colcon_core.verb:set package 'hclidar_driver_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.543s] Level 5:colcon.colcon_core.verb:set package 'hclidar_driver_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.543s] Level 5:colcon.colcon_core.verb:set package 'hclidar_driver_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.543s] DEBUG:colcon.colcon_core.verb:Building package 'hclidar_driver_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/konyun/hclidar_ros2_driver/build/hclidar_driver_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2', 'merge_install': False, 'path': '/home/konyun/hclidar_ros2_driver', 'symlink_install': True, 'test_result_base': None}
+[0.544s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.551s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.552s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/konyun/hclidar_ros2_driver' with build type 'ament_cmake'
+[0.553s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/konyun/hclidar_ros2_driver'
+[0.566s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.567s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.567s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/konyun/hclidar_ros2_driver/build/hclidar_driver_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/konyun/hclidar_ros2_driver/build/hclidar_driver_ros2 -- -j4 -l4
+[8.594s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/konyun/hclidar_ros2_driver/build/hclidar_driver_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/konyun/hclidar_ros2_driver/build/hclidar_driver_ros2 -- -j4 -l4
+[8.731s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/konyun/hclidar_ros2_driver/build/hclidar_driver_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/konyun/hclidar_ros2_driver/build/hclidar_driver_ros2
+[8.850s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hclidar_driver_ros2)
+[8.862s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/konyun/hclidar_ros2_driver/build/hclidar_driver_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/konyun/hclidar_ros2_driver/build/hclidar_driver_ros2
+[8.891s] Level 1:colcon.colcon_core.environment:checking '/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2' for CMake module files
+[8.893s] Level 1:colcon.colcon_core.environment:checking '/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2' for CMake config files
+[8.896s] Level 1:colcon.colcon_core.shell:create_environment_hook('hclidar_driver_ros2', 'cmake_prefix_path')
+[8.900s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/hook/cmake_prefix_path.ps1'
+[8.905s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/hook/cmake_prefix_path.dsv'
+[8.907s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/hook/cmake_prefix_path.sh'
+[8.912s] Level 1:colcon.colcon_core.environment:checking '/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/lib'
+[8.913s] Level 1:colcon.colcon_core.environment:checking '/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/bin'
+[8.914s] Level 1:colcon.colcon_core.environment:checking '/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/lib/pkgconfig/hclidar_driver_ros2.pc'
+[8.915s] Level 1:colcon.colcon_core.environment:checking '/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/lib/python3.8/site-packages'
+[8.916s] Level 1:colcon.colcon_core.environment:checking '/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/bin'
+[8.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/package.ps1'
+[8.928s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/package.dsv'
+[8.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/package.sh'
+[8.933s] INFO:colcon.colcon_core.shell:Creating package script '/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/package.bash'
+[8.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/package.zsh'
+[8.941s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/colcon-core/packages/hclidar_driver_ros2)
+[9.066s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hclidar_driver_ros2)
+[9.074s] Level 1:colcon.colcon_core.environment:checking '/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2' for CMake module files
+[9.076s] Level 1:colcon.colcon_core.environment:checking '/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2' for CMake config files
+[9.079s] Level 1:colcon.colcon_core.shell:create_environment_hook('hclidar_driver_ros2', 'cmake_prefix_path')
+[9.083s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/hook/cmake_prefix_path.ps1'
+[9.086s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/hook/cmake_prefix_path.dsv'
+[9.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/hook/cmake_prefix_path.sh'
+[9.091s] Level 1:colcon.colcon_core.environment:checking '/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/lib'
+[9.091s] Level 1:colcon.colcon_core.environment:checking '/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/bin'
+[9.092s] Level 1:colcon.colcon_core.environment:checking '/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/lib/pkgconfig/hclidar_driver_ros2.pc'
+[9.093s] Level 1:colcon.colcon_core.environment:checking '/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/lib/python3.8/site-packages'
+[9.094s] Level 1:colcon.colcon_core.environment:checking '/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/bin'
+[9.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/package.ps1'
+[9.101s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/package.dsv'
+[9.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/package.sh'
+[9.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/package.bash'
+[9.104s] INFO:colcon.colcon_core.shell:Creating package script '/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/package.zsh'
+[9.105s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/colcon-core/packages/hclidar_driver_ros2)
+[9.105s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.106s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.106s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.106s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.165s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.165s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.165s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.198s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.202s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/konyun/hclidar_ros2_driver/install/local_setup.ps1'
+[9.206s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/konyun/hclidar_ros2_driver/install/_local_setup_util_ps1.py'
+[9.210s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/konyun/hclidar_ros2_driver/install/setup.ps1'
+[9.218s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/konyun/hclidar_ros2_driver/install/local_setup.sh'
+[9.219s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/konyun/hclidar_ros2_driver/install/_local_setup_util_sh.py'
+[9.222s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/konyun/hclidar_ros2_driver/install/setup.sh'
+[9.224s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/konyun/hclidar_ros2_driver/install/local_setup.bash'
+[9.227s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/konyun/hclidar_ros2_driver/install/setup.bash'
+[9.231s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/konyun/hclidar_ros2_driver/install/local_setup.zsh'
+[9.233s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/konyun/hclidar_ros2_driver/install/setup.zsh'

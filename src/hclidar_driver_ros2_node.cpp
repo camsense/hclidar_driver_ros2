@@ -160,10 +160,27 @@ int rtn = 0;
     std::string strPort;
     strPort = "/dev/ttyUSB" + std::to_string(iPort);              // For Linux OS
 
+    node->declare_parameter("port");
+    node->get_parameter("port", strPort);
+    printf( "Port=%s\n" , strPort.c_str());
 
     int iBaud = 115200;
+    node->declare_parameter("baudrate");
+    node->get_parameter("baudrate", iBaud);
+    printf( "baudrate=%d\n" , iBaud);
 
+    //std::string strLidarModel = "X2M";
     std::string strLidarModel = "X2M";
+    node->declare_parameter("lidar_model");
+    node->get_parameter("lidar_model", strLidarModel);
+    printf( "strLidarModel=%s\n" , strLidarModel.c_str());
+
+
+    std::string frame_id = "laser_frame";
+    node->declare_parameter("frame_id");
+    node->get_parameter("frame_id", frame_id);
+    printf( "frame_id=%s\n" , frame_id.c_str());
+
 
 
     int iReadTimeoutms = 2;//10
@@ -196,10 +213,7 @@ int rtn = 0;
   
   auto laser_pub = node->create_publisher<sensor_msgs::msg::LaserScan>("scan", rclcpp::SensorDataQoS());
 
-  std::string frame_id = "laser_frame";
-  node->declare_parameter("frame_id");
-  node->get_parameter("frame_id", frame_id);
-
+  
   float angle_max = 3.141592;
   node->declare_parameter("angle_max");
   node->get_parameter("angle_max", angle_max);

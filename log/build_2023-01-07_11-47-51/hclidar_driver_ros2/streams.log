@@ -1,0 +1,303 @@
+[0.096s] Invoking command in '/home/konyun/hclidar_ros2_driver/build/hclidar_driver_ros2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/konyun/hclidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2
+[3.147s] -- The C compiler identification is GNU 9.4.0
+[4.407s] -- The CXX compiler identification is GNU 9.4.0
+[4.481s] -- Check for working C compiler: /usr/bin/cc
+[4.907s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.916s] -- Detecting C compiler ABI info
+[5.235s] -- Detecting C compiler ABI info - done
+[5.272s] -- Detecting C compile features
+[5.274s] -- Detecting C compile features - done
+[5.284s] -- Check for working CXX compiler: /usr/bin/c++
+[5.640s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[5.644s] -- Detecting CXX compiler ABI info
+[6.034s] -- Detecting CXX compiler ABI info - done
+[6.087s] -- Detecting CXX compile features
+[6.089s] -- Detecting CXX compile features - done
+[6.158s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[6.321s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[6.322s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.144s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.408s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[8.014s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.063s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[9.282s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[9.451s] -- Found FastRTPS: /opt/ros/foxy/include  
+[9.826s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.076s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[10.085s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.109s] -- Looking for pthread.h
+[10.628s] -- Looking for pthread.h - found
+[10.629s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.957s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[10.959s] -- Looking for pthread_create in pthreads
+[11.181s] -- Looking for pthread_create in pthreads - not found
+[11.181s] -- Looking for pthread_create in pthread
+[11.485s] -- Looking for pthread_create in pthread - found
+[11.488s] -- Found Threads: TRUE  
+[12.372s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[13.023s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[13.333s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[13.424s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[13.967s] -- Added test 'copyright' to check source files copyright and LICENSE
+[14.365s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.367s] -- Configured cppcheck include dirs: /home/konyun/hclidar_ros2_driver/src
+[14.367s] -- Configured cppcheck exclude dirs and/or files: 
+[14.558s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[14.559s] -- Configured cpplint exclude dirs and/or files: 
+[14.578s] -- Added test 'flake8' to check Python code syntax and style conventions
+[14.618s] -- Added test 'lint_cmake' to check CMake code style
+[14.635s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[14.827s] -- Added test 'uncrustify' to check C / C++ code style
+[14.827s] -- Configured uncrustify additional arguments: 
+[14.857s] -- Added test 'xmllint' to check XML markup files
+[14.892s] -- Configuring done
+[14.954s] -- Generating done
+[14.964s] -- Build files have been written to: /home/konyun/hclidar_ros2_driver/build/hclidar_driver_ros2
+[15.004s] Invoked command in '/home/konyun/hclidar_ros2_driver/build/hclidar_driver_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/konyun/hclidar_ros2_driver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2
+[15.009s] Invoking command in '/home/konyun/hclidar_ros2_driver/build/hclidar_driver_ros2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/konyun/hclidar_ros2_driver/build/hclidar_driver_ros2 -- -j4 -l4
+[15.179s] [35m[1mScanning dependencies of target lidar[0m
+[15.311s] [ 11%] [32mBuilding CXX object src/base/CMakeFiles/lidar.dir/lidar.cpp.o[0m
+[15.315s] [ 22%] [32mBuilding CXX object src/base/CMakeFiles/lidar.dir/hchead.cpp.o[0m
+[15.327s] [ 33%] [32mBuilding CXX object src/base/CMakeFiles/lidar.dir/hclidar.cpp.o[0m
+[15.328s] [ 44%] [32mBuilding CXX object src/base/CMakeFiles/lidar.dir/ReadParsePackage.cpp.o[0m
+[18.120s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hchead.cpp:[m[K In static member function ‘[01m[Kstatic void HCHead::eraseBuff(std::vector<unsigned char>&, int)[m[K’:
+[18.121s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hchead.cpp:43:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<unsigned char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[18.122s]    43 |  if ([01;35m[KlstG.size() >= iLen[m[K)
+[18.122s]       |      [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[18.133s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hchead.cpp:[m[K In static member function ‘[01m[Kstatic void HCHead::eraseRangeData(LstPointCloud&, int)[m[K’:
+[18.133s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hchead.cpp:57:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<tsPointCloud>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[18.134s]    57 |  if ([01;35m[KlstG.size() >= iLen[m[K)
+[18.134s]       |      [01;35m[K~~~~~~~~~~~~^~~~~~~[m[K
+[18.345s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/ReadParsePackage.cpp:[m[K In member function ‘[01m[Kint ReadParsePackage::ReadDataSerial(unsigned int)[m[K’:
+[18.346s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/ReadParsePackage.cpp:52:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KnumDataByte[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[18.348s]    52 |     int [01;35m[KnumDataByte[m[K;
+[18.348s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[18.529s] In file included from [01m[K/home/konyun/hclidar_ros2_driver/src/base/hchead.cpp:1[m[K:
+[18.530s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hchead.h:[m[K At global scope:
+[18.531s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hchead.h:425:15:[m[K [01;35m[Kwarning: [m[K‘[01m[Kchar* print_curr_time()[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[18.531s]   425 | static char*  [01;35m[Kprint_curr_time[m[K()
+[18.532s]       |               [01;35m[K^~~~~~~~~~~~~~~[m[K
+[18.665s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/lidar.cpp:[m[K In member function ‘[01m[Kvoid Dev::CacheScanData()[m[K’:
+[18.666s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/lidar.cpp:101:6:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KsameAngleCount[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[18.666s]   101 |  int [01;35m[KsameAngleCount[m[K;
+[18.667s]       |      [01;35m[K^~~~~~~~~~~~~~[m[K
+[18.669s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/lidar.cpp:[m[K In member function ‘[01m[Kvoid Dev::GrabScanDataWithLoop(std::__cxx11::list<node_info>&, node_info*, size_t)[m[K’:
+[18.670s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/lidar.cpp:194:94:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KbuffLen[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[18.671s]   194 | void Dev::GrabScanDataWithLoop(std::list<node_info>& nodeList, node_info* nodebuffer, [01;35m[Ksize_t buffLen[m[K)
+[18.672s]       |                                                                                       [01;35m[K~~~~~~~^~~~~~~[m[K
+[18.673s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/lidar.cpp:[m[K In member function ‘[01m[Kvoid Dev::GrabScanData(std::__cxx11::list<node_info>&)[m[K’:
+[18.673s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/lidar.cpp:338:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[18.674s]   338 |     for (int i = 0; [01;35m[Ki < count[m[K; ++i)
+[18.675s]       |                     [01;35m[K~~^~~~~~~[m[K
+[18.675s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/lidar.cpp:[m[K In member function ‘[01m[Kvoid Dev::GetScanData(node_info*, size_t, size_t&, bool)[m[K’:
+[18.676s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/lidar.cpp:357:23:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[18.678s]   357 |     for (int i = 0; [01;35m[Ki < count[m[K; ++i)
+[18.678s]       |                     [01;35m[K~~^~~~~~~[m[K
+[19.038s] [ 55%] [32mBuilding CXX object src/base/CMakeFiles/lidar.dir/HC_serial.cpp.o[0m
+[19.254s] [ 66%] [32mBuilding CXX object src/base/CMakeFiles/lidar.dir/HcSDK.cpp.o[0m
+[19.516s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:[m[K In member function ‘[01m[KBOOL HCLidar::initialize(const char*, const char*, int, int, bool, bool, bool)[m[K’:
+[19.517s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:689:108:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KbDistQ2[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[19.517s]   689 | BOOL HCLidar::initialize(const char* chPort, const char* chLidarModel,int iBaud, int iReadTimeoutMs,  [01;35m[Kbool bDistQ2[m[K,bool bGetLoopData, bool bPollMode)
+[19.518s]       |                                                                                                       [01;35m[K~~~~~^~~~~~~[m[K
+[19.526s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:[m[K In member function ‘[01m[Kvoid HCLidar::readData()[m[K’:
+[19.527s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:885:42:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[KUINT64[m[K’ {aka ‘[01m[Klong long unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[19.527s]   885 |     if ([01;35m[K(endTime - m_u64StartTimeNoData) >= m_sSDKPara.iNoDataMS * 1000[m[K)
+[19.528s]       |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.535s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:[m[K In member function ‘[01m[Kvoid HCLidar::threadParse()[m[K’:
+[19.536s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:976:15:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[KUINT64[m[K’ {aka ‘[01m[Klong long unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[19.537s]   976 |    if ([01;35m[Ku64Int >= m_iWaitIDTimeMs[m[K)
+[19.537s]       |        [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[19.548s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:[m[K In member function ‘[01m[Kbool HCLidar::processData()[m[K’:
+[19.549s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:1156:5:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K-Wmisleading-indentation[m[K]
+[19.549s]  1156 |     [01;35m[Kif[m[K(m_lstBuff.size()<=2)
+[19.550s]       |     [01;35m[K^~[m[K
+[19.551s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:1159:2:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+[19.553s]  1159 |  [01;36m[Kif[m[K (checkContinuePacketErr())
+[19.554s]       |  [01;36m[K^~[m[K
+[19.555s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:1164:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<unsigned char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[19.556s]  1164 |     for(int i=0;[01;35m[Ki<m_lstBuff.size()-1[m[K;i++)
+[19.557s]       |                 [01;35m[K~^~~~~~~~~~~~~~~~~~~[m[K
+[19.571s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:[m[K In member function ‘[01m[Kbool HCLidar::getDevID(std::vector<unsigned char>&)[m[K’:
+[19.578s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:1319:22:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<unsigned char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[19.590s]  1319 |   if ([01;35m[KlstBuff.size() < iLen[m[K)
+[19.591s]       |       [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[19.605s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:1360:13:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+[19.606s]  1360 |    LOG_INFO([01;35m[KchTemp[m[K);
+[19.607s]       |             [01;35m[K^~~~~~[m[K
+[19.615s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:1382:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<unsigned char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[19.621s]  1382 |         if([01;35m[KlstBuff.size() < iLen[m[K)
+[19.622s]       |            [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[19.631s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:1432:27:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<unsigned char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[19.632s]  1432 |         if([01;35m[KlstBuff.size() < iLen[m[K)
+[19.633s]       |            [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[19.643s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:[m[K In member function ‘[01m[Kbool HCLidar::calStartInfo(char*, int)[m[K’:
+[19.644s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:1474:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[KUINT[m[K’ {aka ‘[01m[Kunsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[19.645s]  1474 |     for (UINT i = 0; [01;35m[Ki < iLen[m[K; i++)
+[19.646s]       |                      [01;35m[K~~^~~~~~[m[K
+[19.657s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:[m[K In member function ‘[01m[Kbool HCLidar::getStartInfo(std::vector<unsigned char>&)[m[K’:
+[19.657s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:1595:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<unsigned char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[19.660s]  1595 |  int iMin = [01;35m[KiLen < lstBuff.size()[m[K ? iLen : lstBuff.size();
+[19.660s]       |             [01;35m[K~~~~~^~~~~~~~~~~~~~~~[m[K
+[19.679s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:[m[K In member function ‘[01m[Kbool HCLidar::calMCUFrame(char*, int)[m[K’:
+[19.680s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:1725:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[KUINT[m[K’ {aka ‘[01m[Kunsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[19.680s]  1725 |     for (UINT i = 0; [01;35m[Ki < iLen-1[m[K; i++)
+[19.681s]       |                      [01;35m[K~~^~~~~~~~[m[K
+[19.684s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:[m[K In member function ‘[01m[Kbool HCLidar::getMCUCmd(std::vector<unsigned char>&)[m[K’:
+[19.686s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:1741:17:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<unsigned char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[19.687s]  1741 |     if([01;35m[KiPackLen <= lstBuff.size()[m[K)//have a good packet
+[19.687s]       |        [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[19.690s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:[m[K In member function ‘[01m[Kbool HCLidar::getPointCloud(std::vector<unsigned char>&)[m[K’:
+[19.690s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:1783:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<unsigned char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[19.691s]  1783 |  int iMin = [01;35m[KiLen < lstBuff.size()[m[K ? iLen : lstBuff.size();
+[19.692s]       |             [01;35m[K~~~~~^~~~~~~~~~~~~~~~[m[K
+[19.695s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:1784:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<unsigned char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[19.696s]  1784 |  if ([01;35m[KlstBuff.size() < iLen[m[K)
+[19.698s]       |      [01;35m[K~~~~~~~~~~~~~~~^~~~~~[m[K
+[19.702s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:1819:15:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<unsigned char>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[19.704s]  1819 |  if ([01;35m[KiPackLen <= lstBuff.size()[m[K)//have a good packet
+[19.705s]       |      [01;35m[K~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[19.721s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:[m[K In member function ‘[01m[Kbool HCLidar::parserRangeEX(LstPointCloud&, const char*, int, int, int)[m[K’:
+[19.721s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:1870:82:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KiIndex[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[19.722s]  1870 | bool HCLidar::parserRangeEX(LstPointCloud &resultRange, const char * chBuff, [01;35m[Kint iIndex[m[K, int in_numData, int iPointSize)
+[19.723s]       |                                                                              [01;35m[K~~~~^~~~~~[m[K
+[19.743s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:[m[K In member function ‘[01m[Kbool HCLidar::checkDataCal(std::vector<unsigned char>&, int)[m[K’:
+[19.746s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:2075:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[19.750s]  2075 |  for (int i = 0; [01;35m[Ki < temp.size()[m[K; i++)
+[19.751s]       |                  [01;35m[K~~^~~~~~~~~~~~~[m[K
+[19.754s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:2081:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<int>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[19.757s]  2081 |  for (int i = 0; [01;35m[Ki < temp.size()[m[K; i++)
+[19.761s]       |                  [01;35m[K~~^~~~~~~~~~~~~[m[K
+[19.795s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:[m[K In member function ‘[01m[Kvoid HCLidar::checkInvalidLowSpeed(UINT16)[m[K’:
+[19.797s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:2225:52:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[KUINT64[m[K’ {aka ‘[01m[Klong long unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[19.798s]  2225 |             if ([01;35m[K(endTime - m_u64StartTimeLowSpeed) >= m_sSDKPara.iSpeedContinueMS*1000[m[K)
+[19.799s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.801s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:[m[K In member function ‘[01m[Kvoid HCLidar::checkInvalidHighSpeed(UINT16)[m[K’:
+[19.805s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:2251:53:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Klong long unsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[19.807s]  2251 |             if ([01;35m[K(endTime - m_u64StartTimeHighSpeed) >= m_sSDKPara.iSpeedContinueMS*1000[m[K)
+[19.815s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.819s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:[m[K In member function ‘[01m[Kvoid HCLidar::checkSharkBlocked()[m[K’:
+[19.822s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:2325:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[KUINT64[m[K’ {aka ‘[01m[Klong long unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[19.823s]  2325 |         if([01;35m[Ku64Temp >= (m_sSDKPara.iBlockContinueMS+2000)*1000[m[K) //3.5+2S
+[19.825s]       |            [01;35m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.828s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:2330:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[KUINT64[m[K’ {aka ‘[01m[Klong long unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[19.829s]  2330 |         else if([01;35m[Ku64Temp >= m_sSDKPara.iBlockContinueMS*1000[m[K && u64Temp < (m_sSDKPara.iBlockContinueMS+2000)*1000)//3.5 - 4.5s
+[19.830s]       |                 [01;35m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.831s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:2330:72:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[KUINT64[m[K’ {aka ‘[01m[Klong long unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[19.836s]  2330 |         else if(u64Temp >= m_sSDKPara.iBlockContinueMS*1000 && [01;35m[Ku64Temp < (m_sSDKPara.iBlockContinueMS+2000)*1000[m[K)//3.5 - 4.5s
+[19.836s]       |                                                                [01;35m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.840s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:[m[K In member function ‘[01m[Kvoid HCLidar::checkSharkInvalidPoints(tsPointCloud&)[m[K’:
+[19.840s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:2375:57:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Klong long unsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[19.841s]  2375 |             if ([01;35m[K(endTime - m_u64StartTimeInvalidPoints) >= m_sSDKPara.iCoverContinueMS*1000[m[K)
+[19.844s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.845s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:[m[K In member function ‘[01m[Kvoid HCLidar::pollModePointCloud()[m[K’:
+[19.857s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:2427:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<std::vector<tsPointCloud> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[19.858s]  2427 |   if ([01;35m[Km_Circles.size() > m_sSDKPara.iCirclesBuffSize[m[K)
+[19.860s]       |       [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.860s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:2435:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<tsPointCloud>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[19.861s]  2435 |   if ([01;35m[Km_resultRange.size() > m_sSDKPara.iPollBuffSize[m[K)
+[19.862s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.863s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:[m[K In member function ‘[01m[Kvoid HCLidar::callBackFunPointCloud()[m[K’:
+[19.863s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:2463:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<tsPointCloud>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[19.864s]  2463 |   if ([01;35m[Km_resultRange.size() >= m_sSDKPara.iCallbackBuffSize[m[K)
+[19.867s]       |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.878s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:[m[K In member function ‘[01m[Kbool HCLidar::getErrorCode(int, int)[m[K’:
+[19.879s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:2539:14:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[KUINT64[m[K’ {aka ‘[01m[Klong long unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[19.880s]  2539 |   if ([01;35m[Ku64Int <= iMs*1000[m[K)
+[19.882s]       |       [01;35m[K~~~~~~~^~~~~~~~~~~[m[K
+[19.884s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:[m[K In member function ‘[01m[Kbool HCLidar::rockCheckLDSInfo(UINT8*, unLidarInfo&)[m[K’:
+[19.885s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:2563:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[19.886s]  2563 |  if ([01;35m[Kdecode_size < sizeof(unLidarInfo)[m[K)
+[19.887s]       |      [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[19.890s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:2556:6:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksize[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[19.890s]  2556 |  int [01;35m[Ksize[m[K = 0;
+[19.892s]       |      [01;35m[K^~~~[m[K
+[19.894s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:[m[K In member function ‘[01m[Kvoid HCLidar::rockDecodeLDSInfoPacket(UINT8*, UINT8*, int&)[m[K’:
+[19.896s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:2585:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[19.897s]  2585 |  for (int i = 0; i < RCV_SIZE; i++)
+[19.902s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:2589:10:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[19.902s]  2589 |    if ([01;35m[Ki < RCV_SIZE - 1[m[K)
+[19.903s]       |        [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[19.906s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:[m[K In member function ‘[01m[Kbool HCLidar::rockCheckCRC(unLidarInfo)[m[K’:
+[19.907s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:2605:20:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Klong unsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[19.923s]  2605 |  for (int i = 0; [01;35m[Ki < (sizeof(unLidarInfo) / sizeof(UINT16) - 1)[m[K; i++)
+[19.924s]       |                  [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.925s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:[m[K In member function ‘[01m[Kvoid HCLidar::checkChangeSpeed()[m[K’:
+[19.926s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.cpp:2639:14:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[KUINT64[m[K’ {aka ‘[01m[Klong long unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[19.927s]  2639 |  if ([01;35m[Ku64Temp >= (m_sSDKPara.iChangeSpeedMS ) * 1000[m[K) //2.5S
+[19.929s]       |      [01;35m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[21.250s] In file included from [01m[K/home/konyun/hclidar_ros2_driver/src/base/HcSDK.cpp:2[m[K:
+[21.252s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/HcSDK.h:82:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[21.257s]    82 | }[01;35m[K;[m[K
+[21.269s]       |  [01;35m[K^[m[K
+[21.327s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/HC_serial.cpp:[m[K In function ‘[01m[Kvoid signal_handler_IO(int)[m[K’:
+[21.327s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/HC_serial.cpp:39:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kstatus[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[21.328s]    39 | void signal_handler_IO([01;35m[Kint status[m[K)
+[21.328s]       |                        [01;35m[K~~~~^~~~~~[m[K
+[21.770s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/HcSDK.cpp:159:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[21.771s]   159 | }[01;35m[K;[m[K
+[21.772s]       |  [01;35m[K^[m[K
+[22.063s] In file included from [01m[K/home/konyun/hclidar_ros2_driver/src/base/hclidar.h:5[m[K,
+[22.063s]                  from [01m[K/home/konyun/hclidar_ros2_driver/src/base/HcSDK.cpp:5[m[K:
+[22.064s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/hchead.h:425:15:[m[K [01;35m[Kwarning: [m[K‘[01m[Kchar* print_curr_time()[m[K’ defined but not used [[01;35m[K-Wunused-function[m[K]
+[22.065s]   425 | static char*  [01;35m[Kprint_curr_time[m[K()
+[22.066s]       |               [01;35m[K^~~~~~~~~~~~~~~[m[K
+[23.007s] [ 77%] [32m[1mLinking CXX static library liblidar.a[0m
+[23.283s] [ 77%] Built target lidar
+[23.328s] [35m[1mScanning dependencies of target hclidar_driver_ros2_node[0m
+[25.426s] [ 88%] [32mBuilding CXX object CMakeFiles/hclidar_driver_ros2_node.dir/src/hclidar_driver_ros2_node.cpp.o[0m
+[30.625s] In file included from [01m[K/home/konyun/hclidar_ros2_driver/src/hclidar_driver_ros2_node.cpp:34[m[K:
+[30.627s] [01m[K/home/konyun/hclidar_ros2_driver/src/base/HcSDK.h:82:2:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+[30.628s]    82 | }[01;35m[K;[m[K
+[30.628s]       |  [01;35m[K^[m[K
+[30.628s] [01m[K/home/konyun/hclidar_ros2_driver/src/hclidar_driver_ros2_node.cpp:[m[K In function ‘[01m[Kvoid sdkCallBackFunErrorCode(int)[m[K’:
+[30.629s] [01m[K/home/konyun/hclidar_ros2_driver/src/hclidar_driver_ros2_node.cpp:46:9:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+[30.633s]    46 |  printf([01;35m[Kbuff[m[K);
+[30.634s]       |         [01;35m[K^~~~[m[K
+[30.636s] [01m[K/home/konyun/hclidar_ros2_driver/src/hclidar_driver_ros2_node.cpp:[m[K In function ‘[01m[Kvoid sdkCallBackFunSecondInfo(tsSDKStatistic)[m[K’:
+[30.638s] [01m[K/home/konyun/hclidar_ros2_driver/src/hclidar_driver_ros2_node.cpp:65:9:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+[30.638s]    65 |  printf([01;35m[Kbuff[m[K);
+[30.639s]       |         [01;35m[K^~~~[m[K
+[30.639s] [01m[K/home/konyun/hclidar_ros2_driver/src/hclidar_driver_ros2_node.cpp:[m[K In function ‘[01m[Kvoid sdkCallBackFunPointCloud(LstPointCloud)[m[K’:
+[30.639s] [01m[K/home/konyun/hclidar_ros2_driver/src/hclidar_driver_ros2_node.cpp:79:38:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 3 has type ‘[01m[Kstd::vector<tsPointCloud>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wformat=[m[K]
+[30.640s]    79 |  sprintf(buff, "---------------Size=[01;35m[K%d[m[K\n", [32m[KlstG.size()[m[K);
+[30.640s]       |                                     [01;35m[K~^[m[K     [32m[K~~~~~~~~~~~[m[K
+[30.640s]       |                                      [01;35m[K|[m[K              [32m[K|[m[K
+[30.640s]       |                                      [01;35m[Kint[m[K            [32m[Kstd::vector<tsPointCloud>::size_type {aka long unsigned int}[m[K
+[30.641s]       |                                     [32m[K%ld[m[K
+[30.641s] [01m[K/home/konyun/hclidar_ros2_driver/src/hclidar_driver_ros2_node.cpp:80:9:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+[30.641s]    80 |  printf([01;35m[Kbuff[m[K);
+[30.641s]       |         [01;35m[K^~~~[m[K
+[30.735s] [01m[K/home/konyun/hclidar_ros2_driver/src/hclidar_driver_ros2_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[30.736s] [01m[K/home/konyun/hclidar_ros2_driver/src/hclidar_driver_ros2_node.cpp:278:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<tsPointCloud>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[30.737s]   278 |                         for(int i=0; [01;35m[Ki < lstG.size()[m[K; i++)
+[30.738s]       |                                      [01;35m[K~~^~~~~~~~~~~~~[m[K
+[30.738s] [01m[K/home/konyun/hclidar_ros2_driver/src/hclidar_driver_ros2_node.cpp:294:51:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<tsPointCloud>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K-Wsign-compare[m[K]
+[30.738s]   294 |                             if(index >=0 && [01;35m[Kindex < lstG.size()[m[K)
+[30.739s]       |                                             [01;35m[K~~~~~~^~~~~~~~~~~~~[m[K
+[36.576s] [100%] [32m[1mLinking CXX executable hclidar_driver_ros2_node[0m
+[37.659s] [100%] Built target hclidar_driver_ros2_node
+[37.688s] Invoked command in '/home/konyun/hclidar_ros2_driver/build/hclidar_driver_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/konyun/hclidar_ros2_driver/build/hclidar_driver_ros2 -- -j4 -l4
+[37.776s] Invoking command in '/home/konyun/hclidar_ros2_driver/build/hclidar_driver_ros2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/konyun/hclidar_ros2_driver/build/hclidar_driver_ros2
+[37.800s] -- Install configuration: ""
+[37.801s] -- Execute custom install script
+[37.802s] -- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/lib/hclidar_driver_ros2/hclidar_driver_ros2_node
+[37.861s] -- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/launch/hclidar.py
+[37.885s] -- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/launch/hclidar_launch.py
+[37.909s] -- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/launch/hclidar_launch_rviz.py
+[37.952s] -- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/params/hclidar.yaml
+[37.987s] -- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/ament_index/resource_index/package_run_dependencies/hclidar_driver_ros2
+[38.010s] -- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/ament_index/resource_index/parent_prefix_path/hclidar_driver_ros2
+[38.035s] -- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/environment/ament_prefix_path.sh
+[38.067s] -- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/environment/ament_prefix_path.dsv
+[38.095s] -- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/environment/path.sh
+[38.128s] -- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/environment/path.dsv
+[38.160s] -- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/local_setup.bash
+[38.180s] -- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/local_setup.sh
+[38.205s] -- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/local_setup.zsh
+[38.238s] -- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/local_setup.dsv
+[38.269s] -- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/package.dsv
+[38.297s] -- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/ament_index/resource_index/packages/hclidar_driver_ros2
+[38.317s] -- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/cmake/hclidar_driver_ros2Config.cmake
+[38.340s] -- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/cmake/hclidar_driver_ros2Config-version.cmake
+[38.371s] -- Symlinking: /home/konyun/hclidar_ros2_driver/install/hclidar_driver_ros2/share/hclidar_driver_ros2/package.xml
+[38.395s] Invoked command in '/home/konyun/hclidar_ros2_driver/build/hclidar_driver_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/konyun/hclidar_ros2_driver/build/hclidar_driver_ros2

@@ -93,7 +93,7 @@ The command format is :
 
 3. echo scan topic
    ```
-   ros2 run hclidar_driver_ros2 hclidar_driver_ros2_client or ros2 topic echo /scan
+  ros2 topic echo /scan
    ```
 
 #####  Launch file introduction
