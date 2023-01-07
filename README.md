@@ -106,7 +106,7 @@ is `"hclidar_ros2_ws/src/hclidar_driver_ros2/launch"`. All launch files are list
 | ------------------------- | ------------------------------------------------------------ |
 | hclidar.py         | Connect to defualt paramters<br/>Publish LaserScan message on `scan` topic |
 | hclidar_launch.py         | Connect hclidar.yaml Lidar specified by configuration parameters<br/>Publish LaserScan message on `scan` topic |
-| hclidar_launch_view.py         | Connect hclidar.yaml Lidar specified by configuration parameters and setup RVIZ<br/>Publish LaserScan message on `scan` topic |
+| hclidar_launch_rviz.py         | Connect hclidar.yaml Lidar specified by configuration parameters and setup RVIZ<br/>Publish LaserScan message on `scan` topic |
 
 
 
