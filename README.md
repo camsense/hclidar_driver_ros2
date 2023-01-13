@@ -45,10 +45,11 @@ hclidar_driver_ros2 is a new ros package, which is designed to gradually become 
 ```
 hclidar_driver_ros2_node:
   ros__parameters:
-    port: /dev/ttyUSB0
     frame_id: laser_frame
+	lidar_model: "X2M"
+	port: /dev/ttyUSB0
     ignore_array: ""
-    baudrate: 230400
+    baudrate: 115200
     lidar_type: 1
     device_type: 0
     sample_rate: 9
