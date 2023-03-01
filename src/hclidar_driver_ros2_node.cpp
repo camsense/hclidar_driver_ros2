@@ -233,19 +233,21 @@ int rtn = 0;
   node->get_parameter("range_min", range_min);
 
 
-  rclcpp::WallRate loop_rate(20);
+  rclcpp::WallRate loop_rate(100);
 
+  rclcpp::Time  start_time = node->get_clock()->now();
   while (rclcpp::ok()) {
 
     LstPointCloud lstG;
-				rclcpp::Time  start_time = node->get_clock()->now();
+				
 				if (getSDKRxPointClouds(lstG))
 				{
 
 					if (lstG.size() > 0)
           {
                         rclcpp::Time   end_time =  node->get_clock()->now();
-                        //printf("start_time=%lu, end_time=%lu , diff_offset=%ld \n", start_time.toNSec() , end_time.toNSec() , end_time.toNSec()-start_time.toNSec() );
+                        printf("start_time=%lu, end_time=%lu , diff_offset=%ld \n", 
+							start_time.nanoseconds() , end_time.nanoseconds() , (end_time.nanoseconds()-start_time.nanoseconds())/1e6 );
                         
                         printf("Main: total Rx Points=%ld , \n", lstG.size());
                       
@@ -279,7 +281,7 @@ int rtn = 0;
                         scan_msg.ranges.resize(lstG.size());
                         scan_msg.intensities.resize(lstG.size());  
 
-              
+						start_time = end_time;
                         
                         double rad_angel;
           
